@@ -1,10 +1,10 @@
 name_norm,NSDL Scheme Code
-360 one dynamic term fund,360O/O/D/DBF/13/02/0001
 360 one dynamic bond fund,360O/O/D/DBF/13/02/0001
-360 one liquid fund,360O/O/D/LIF/13/05/0002
+360 one dynamic term fund,360O/O/D/DBF/13/02/0001
 360 one liquid fund an open ended liquid scheme,360O/O/D/LIF/13/05/0002
-360 one elss tax saver nifty 50 index fund iifl elss nifty 50 tax saver index fund,360O/O/E/ELS/22/10/0005
+360 one liquid fund,360O/O/D/LIF/13/05/0002
 360 one elss tax saver nifty 50 index fund,360O/O/E/ELS/22/10/0005
+360 one elss tax saver nifty 50 index fund iifl elss nifty 50 tax saver index fund,360O/O/E/ELS/22/10/0005
 360 one flexicap fund,360O/O/E/FCF/23/02/0006
 360 one focused equity fund,360O/O/E/FOC/14/08/0003
 360 one focused fund,360O/O/E/FOC/14/08/0003
@@ -24,27 +24,27 @@ aditya birla sun life fixed term series ub 1224 days,ABSL/C/D/FTP/22/10/0130
 aditya birla sun life interval income fund quarterly series i,ABSL/I/D/XXX/07/08/0034
 aditya birla sun life banking & psu debt fund,ABSL/O/D/BPF/00/01/0013
 aditya birla sun life corporate bond fund,ABSL/O/D/CBF/97/03/0005
-aditya birla sun life credit risk fund no of segregated portfolio 1,ABSL/O/D/CRF/14/10/0048
 aditya birla sun life credit risk fund,ABSL/O/D/CRF/14/10/0048
-aditya birla sun life dynamic term fund,ABSL/O/D/DBF/04/08/0024
+aditya birla sun life credit risk fund no of segregated portfolio 1,ABSL/O/D/CRF/14/10/0048
 aditya birla sun life dynamic bond fund no of segregated portfolio 1,ABSL/O/D/DBF/04/08/0024
+aditya birla sun life dynamic term fund,ABSL/O/D/DBF/04/08/0024
 aditya birla sun life dynamic bond fund,ABSL/O/D/DBF/04/08/0024
-aditya birla sun life floating interest rate fund,ABSL/O/D/FLF/03/05/0021
 aditya birla sun life floating rate fund,ABSL/O/D/FLF/03/05/0021
-aditya birla sun life gilt fund,ABSL/O/D/GIL/99/10/0011
+aditya birla sun life floating interest rate fund,ABSL/O/D/FLF/03/05/0021
 aditya birla sun life government securities fund,ABSL/O/D/GIL/99/10/0011
+aditya birla sun life gilt fund,ABSL/O/D/GIL/99/10/0011
 aditya birla sun life liquid fund,ABSL/O/D/LIF/97/06/0006
 aditya birla sun life long duration fund,ABSL/O/D/LON/21/10/0117
 aditya birla sun life long term fund,ABSL/O/D/LON/21/10/0117
 aditya birla sun life ultra short to short term fund,ABSL/O/D/LOW/98/07/0007
 aditya birla sun life low duration fund,ABSL/O/D/LOW/98/07/0007
-aditya birla sun life medium term no of segregated portfolio 1,ABSL/O/D/MDF/09/02/0038
 aditya birla sun life medium term,ABSL/O/D/MDF/09/02/0038
+aditya birla sun life medium term no of segregated portfolio 1,ABSL/O/D/MDF/09/02/0038
 aditya birla sun life medium term fund,ABSL/O/D/MDF/09/02/0038
 aditya birla sun life medium to long term fund,ABSL/O/D/MLD/95/10/0003
 aditya birla sun life income fund,ABSL/O/D/MLD/95/10/0003
-aditya birla sun life money manager fund,ABSL/O/D/MMF/03/06/0022
 aditya birla sun life money market fund,ABSL/O/D/MMF/03/06/0022
+aditya birla sun life money manager fund,ABSL/O/D/MMF/03/06/0022
 aditya birla sun life overnight fund,ABSL/O/D/ONF/18/10/0074
 aditya birla sun life short term fund,ABSL/O/D/SDF/02/04/0016
 aditya birla sun life ultra short term fund,ABSL/O/D/USD/01/11/0015
@@ -78,8 +78,8 @@ aditya birla sun life conglomerate fund,ABSL/O/E/THE/24/10/0166
 aditya birla sun life value fund,ABSL/O/E/VAF/07/07/0031
 aditya birla sun life pure value fund,ABSL/O/E/VAF/07/07/0031
 aditya birla sun life arbitrage fund,ABSL/O/H/ARB/09/04/0039
-aditya birla sun life equity hybrid 95 fund,ABSL/O/H/BHF/95/01/0001
 aditya birla sun life aggressive hybrid fund,ABSL/O/H/BHF/95/01/0001
+aditya birla sun life equity hybrid 95 fund,ABSL/O/H/BHF/95/01/0001
 aditya birla sun life conservative hybrid fund,ABSL/O/H/CHF/04/02/0023
 aditya birla sun life balanced advantage fund,ABSL/O/H/DAA/00/03/0014
 aditya birla sun life equity savings fund,ABSL/O/H/ESF/14/10/0047
@@ -112,25 +112,25 @@ aditya birla sun life nifty india defence index fund,ABSL/O/O/EIN/24/07/0160
 aditya birla sun life bse india infrastructure index fund,ABSL/O/O/EIN/24/10/0165
 aditya birla sun life bse 500 quality 50 index fund,ABSL/O/O/EIN/25/06/0169
 aditya birla sun life bse 500 momentum 50 index fund,ABSL/O/O/EIN/25/06/0170
-aditya birla sun life asset allocator fof,ABSL/O/O/FOD/06/05/0029
 aditya birla sun life multi asset omni fof,ABSL/O/O/FOD/06/05/0029
-aditya birla sun life debt plus arbitrage fof,ABSL/O/O/FOD/06/09/0030
-aditya birla sun life active debt multi manager fof scheme,ABSL/O/O/FOD/06/09/0030
+aditya birla sun life asset allocator fof,ABSL/O/O/FOD/06/05/0029
 aditya birla sun life income plus arbitrage active fof,ABSL/O/O/FOD/06/09/0030
-aditya birla sun life financial planning fund aggressive,ABSL/O/O/FOD/10/10/0040
+aditya birla sun life active debt multi manager fof scheme,ABSL/O/O/FOD/06/09/0030
+aditya birla sun life debt plus arbitrage fof,ABSL/O/O/FOD/06/09/0030
 aditya birla sun life dynamic asset allocation omni fof,ABSL/O/O/FOD/10/10/0040
-aditya birla sun life financial planning fund conservative,ABSL/O/O/FOD/10/10/0041
+aditya birla sun life financial planning fund aggressive,ABSL/O/O/FOD/10/10/0040
 aditya birla sun life conservative hybrid active fof,ABSL/O/O/FOD/10/10/0041
+aditya birla sun life financial planning fund conservative,ABSL/O/O/FOD/10/10/0041
 aditya birla sun life financial planning fund moderate,ABSL/O/O/FOD/10/10/0042
 aditya birla sun life aggressive hybrid omni fof,ABSL/O/O/FOD/10/10/0042
 aditya birla sun life gold fund,ABSL/O/O/FOD/11/10/0045
 aditya birla sun life silver etf fof,ABSL/O/O/FOD/21/12/0104
 aditya birla sun life global excellence equity fund of fund,ABSL/O/O/FOO/07/11/0035
 aditya birla sun life global emerging opportunities fund,ABSL/O/O/FOO/08/03/0036
-aditya birla sun life nasdaq 100 fof,ABSL/O/O/FOO/21/07/0097
 aditya birla sun life us equity passive fof,ABSL/O/O/FOO/21/07/0097
-aditya birla sun life multi index fund of funds,ABSL/O/O/FOO/22/07/0122
+aditya birla sun life nasdaq 100 fof,ABSL/O/O/FOO/21/07/0097
 aditya birla sun life multi asset passive fof,ABSL/O/O/FOO/22/07/0122
+aditya birla sun life multi index fund of funds,ABSL/O/O/FOO/22/07/0122
 aditya birla sun life us treasury 1 3 year bond etfs passive fof,ABSL/O/O/FOO/23/04/0147
 aditya birla sun life us treasury 1 3 year bond etfs fund of funds,ABSL/O/O/FOO/23/04/0147
 aditya birla sun life us treasury 3 10 year bond etfs fund of funds,ABSL/O/O/FOO/23/04/0148
@@ -180,29 +180,29 @@ axis banking and psu debt fund,AXIS/O/D/BPF/12/03/0015
 axis banking & psu debt fund,AXIS/O/D/BPF/12/03/0015
 axis corporate bond fund,AXIS/O/D/CBF/17/05/0023
 axis credit risk fund,AXIS/O/D/CRF/14/03/0017
-axis dynamic bond fund,AXIS/O/D/DBF/11/03/0010
 axis dynamic term fund,AXIS/O/D/DBF/11/03/0010
-axis floating interest rates fund,AXIS/O/D/FLF/21/03/0053
+axis dynamic bond fund,AXIS/O/D/DBF/11/03/0010
 axis floater fund,AXIS/O/D/FLF/21/03/0053
+axis floating interest rates fund,AXIS/O/D/FLF/21/03/0053
 axis gilt fund,AXIS/O/D/GIL/11/12/0013
 axis liquid fund,AXIS/O/D/LIF/09/09/0002
 axis long term fund,AXIS/O/D/LON/22/11/0068
 axis long duration fund,AXIS/O/D/LON/22/11/0068
-axis ultra short to short term fund,AXIS/O/D/LOW/09/09/0001
 axis treasury advantage fund,AXIS/O/D/LOW/09/09/0001
-axis medium term fund,AXIS/O/D/MDF/11/09/0012
+axis ultra short to short term fund,AXIS/O/D/LOW/09/09/0001
 axis strategic bond fund,AXIS/O/D/MDF/11/09/0012
+axis medium term fund,AXIS/O/D/MDF/11/09/0012
 axis money market fund,AXIS/O/D/MMF/19/07/0036
 axis overnight fund,AXIS/O/D/ONF/19/02/0034
 axis short duration fund,AXIS/O/D/SDF/09/11/0004
 axis short term fund,AXIS/O/D/SDF/09/11/0004
-axis ultra short term fund,AXIS/O/D/USD/18/08/0029
 axis ultra short duration fund,AXIS/O/D/USD/18/08/0029
+axis ultra short term fund,AXIS/O/D/USD/18/08/0029
 axis elss tax saver fund,AXIS/O/E/ELS/09/11/0005
 axis flexi cap fund,AXIS/O/E/FCF/17/05/0025
 axis focused fund,AXIS/O/E/FOC/12/02/0014
-axis blue chip fund,AXIS/O/E/LCF/09/10/0003
 axis large cap fund,AXIS/O/E/LCF/09/10/0003
+axis blue chip fund,AXIS/O/E/LCF/09/10/0003
 axis large & mid cap fund,AXIS/O/E/LMF/18/05/0028
 axis opportunities fund,AXIS/O/E/LMF/18/05/0028
 axis multicap fund,AXIS/O/E/MCF/21/09/0058
@@ -262,10 +262,10 @@ axis nifty50 equal weight index fund,AXIS/O/O/EIN/26/06/0111
 axis nifty energy index fund,AXIS/O/O/EIN/26/06/0112
 axis nifty500 low volatility 50 index fund,AXIS/O/O/EIN/26/08/0114
 axis gold fund,AXIS/O/O/FOD/11/06/0011
-axis income plus arbitrage omni fof,AXIS/O/O/FOD/19/07/0041
-axis income plus arbitrage active fof,AXIS/O/O/FOD/19/07/0041
-axis all seasons debt fund of funds,AXIS/O/O/FOD/19/07/0041
 axis income advantage fund of funds,AXIS/O/O/FOD/19/07/0041
+axis all seasons debt fund of funds,AXIS/O/O/FOD/19/07/0041
+axis income plus arbitrage active fof,AXIS/O/O/FOD/19/07/0041
+axis income plus arbitrage omni fof,AXIS/O/O/FOD/19/07/0041
 axis multi factor passive fof,AXIS/O/O/FOD/21/07/0056
 axis equity etfs fof,AXIS/O/O/FOD/21/07/0056
 axis nifty aaa bond plus sdl apr 2026 50 50 etf fof,AXIS/O/O/FOD/21/09/0057
@@ -278,8 +278,8 @@ axis greater china equity fund of fund,AXIS/O/O/FOO/20/02/0043
 axis global equity alpha fund of fund,AXIS/O/O/FOO/20/07/0045
 axis global innovation fund of fund,AXIS/O/O/FOO/20/12/0049
 axis nasdaq 100 fund of fund,AXIS/O/O/FOO/22/09/0066
-axis nasdaq 100 us specific equity passive fof,AXIS/O/O/FOO/22/09/0066
 axis us specific equity passive fof,AXIS/O/O/FOO/22/09/0066
+axis nasdaq 100 us specific equity passive fof,AXIS/O/O/FOO/22/09/0066
 axis us treasury dynamic bond etf fund of fund,AXIS/O/O/FOO/23/11/0081
 axis us specific treasury dynamic debt passive fof,AXIS/O/O/FOO/23/11/0081
 axis gold etf,AXIS/O/O/GET/10/08/0008
@@ -298,8 +298,8 @@ baroda bnp paribas low duration fund,BBNP/O/D/LOW/05/08/0007
 baroda bnp paribas ultra short to short term fund,BBNP/O/D/LOW/05/08/0007
 baroda bnp paribas money market fund,BBNP/O/D/MMF/19/03/0023
 baroda bnp paribas overnight fund,BBNP/O/D/ONF/19/03/0024
-baroda bnp paribas short term fund the scheme has 2 segregated portfolios,BBNP/O/D/SDF/10/05/0011
 baroda bnp paribas short duration fund,BBNP/O/D/SDF/10/05/0011
+baroda bnp paribas short term fund the scheme has 2 segregated portfolios,BBNP/O/D/SDF/10/05/0011
 baroda bnp paribas ultra short duration fund,BBNP/O/D/USD/18/04/0019
 baroda bnp paribas ultra short term fund,BBNP/O/D/USD/18/04/0019
 baroda bnp paribas services fund,BBNP/O/E /THE/26/05/0054
@@ -341,8 +341,8 @@ baroda bnp paribas gold etf,BBNP/O/O/GET/23/09/0037
 baroda bnp paribas children s fund,BBNP/O/S/CHI/24/09/0046
 baroda bnp paribas retirement fund,BBNP/O/S/RET/24/03/0040
 bajaj finserv gilt fund,BFAM/O/D /GIL/24/07/0016
-bajaj finserv ultra short to short term fund,BFAM/O/D /LOW/25/12/0023
 bajaj finserv low duration fund,BFAM/O/D /LOW/25/12/0023
+bajaj finserv ultra short to short term fund,BFAM/O/D /LOW/25/12/0023
 bajaj finserv banking and psu fund,BFAM/O/D/BPF/23/09/0006
 bajaj finserv banking and psu debt fund,BFAM/O/D/BPF/23/09/0006
 bajaj finserv liquid fund,BFAM/O/D/LIF/23/05/0001
@@ -350,8 +350,8 @@ bajaj finserv money market fund,BFAM/O/D/MMF/23/05/0004
 bajaj finserv overnight fund,BFAM/O/D/ONF/23/05/0002
 bajaj finserv elss tax saver fund,BFAM/O/E /ELS/24/11/0015
 bajaj finserv large cap fund,BFAM/O/E /LCF/24/07/0012
-bajaj finserv large and mid cap fund,BFAM/O/E /LMF/24/01/0009
 bajaj finserv large & mid cap fund,BFAM/O/E /LMF/24/01/0009
+bajaj finserv large and mid cap fund,BFAM/O/E /LMF/24/01/0009
 bajaj finserv multi cap fund,BFAM/O/E /MCF/24/12/0017
 bajaj finserv small cap fund,BFAM/O/E /SCF/25/04/0020
 bajaj finserv banking and financial services fund,BFAM/O/E /SEC/25/09/0022
@@ -368,8 +368,8 @@ bajaj finserv bse top 10 banks etf,BFAM/O/O /EET/26/06/0025
 bajaj finserv nifty next 50 index fund,BFAM/O/O /EIN/25/03/0018
 bajaj finserv nifty 50 index fund,BFAM/O/O /EIN/25/03/0019
 bajaj finserv nifty bank etf,BFAM/O/O/EET/23/12/0009
-bandhan ultra short duration fund,BNDN /O/D/USD/18/05/0034
 bandhan ultra short term fund,BNDN /O/D/USD/18/05/0034
+bandhan ultra short duration fund,BNDN /O/D/USD/18/05/0034
 bandhan fixed maturity fmp series 209 93 days,BNDN/C/D/FTP/25/01/0081
 bandhan crisil ibx financial services 3 6 months debt index fund,BNDN/O/D /DIN/25/02/0084
 bandhan banking & psu debt fund,BNDN/O/D/BPF/12/10/0025
@@ -379,33 +379,33 @@ bandhan corporate bond fund,BNDN/O/D/CBF/15/06/0027
 bandhan credit risk fund,BNDN/O/D/CRF/17/01/0031
 bandhan dynamic bond fund,BNDN/O/D/DBF/02/05/0006
 bandhan dynamic term fund,BNDN/O/D/DBF/02/05/0006
-bandhan floater fund,BNDN/O/D/FLF/20/03/0044
-bandhan floating rate fund,BNDN/O/D/FLF/20/03/0044
 bandhan floating interest rates fund,BNDN/O/D/FLF/20/03/0044
+bandhan floating rate fund,BNDN/O/D/FLF/20/03/0044
+bandhan floater fund,BNDN/O/D/FLF/20/03/0044
 bandhan gsf investment,BNDN/O/D/GIL/02/02/0004
 bandhan gilt fund,BNDN/O/D/GIL/02/02/0004
+bandhan 10 year constant maturity gilt fund,BNDN/O/D/GTN/02/02/0005
 bandhan gsf constant maturity,BNDN/O/D/GTN/02/02/0005
 bandhan gilt fund with 10 year constant duration fund,BNDN/O/D/GTN/02/02/0005
-bandhan 10 year constant maturity gilt fund,BNDN/O/D/GTN/02/02/0005
 bandhan liquid fund,BNDN/O/D/LIF/01/07/0003
-bandhan long term fund,BNDN/O/D/LON/24/02/0070
 bandhan long duration fund,BNDN/O/D/LON/24/02/0070
+bandhan long term fund,BNDN/O/D/LON/24/02/0070
 bandhan low duration fund,BNDN/O/D/LOW/05/07/0012
 bandhan ultra short to short term fund,BNDN/O/D/LOW/05/07/0012
 bandhan medium duration fund,BNDN/O/D/MDF/03/06/0008
 bandhan bond fund medium term,BNDN/O/D/MDF/03/06/0008
 bandhan medium term fund,BNDN/O/D/MDF/03/06/0008
-bandhan medium to long term fund,BNDN/O/D/MLD/00/06/0001
 bandhan bond fund income,BNDN/O/D/MLD/00/06/0001
 bandhan medium to long duration fund,BNDN/O/D/MLD/00/06/0001
-bandhan money market fund,BNDN/O/D/MMF/02/10/0007
+bandhan medium to long term fund,BNDN/O/D/MLD/00/06/0001
 bandhan money manager fund,BNDN/O/D/MMF/02/10/0007
-bandhan us treasury bond 0 1 year specific debt passive fof,BNDN/O/D/OIN/23/02/0061
+bandhan money market fund,BNDN/O/D/MMF/02/10/0007
 bandhan us treasury bond 0 1 year fund of fund,BNDN/O/D/OIN/23/02/0061
+bandhan us treasury bond 0 1 year specific debt passive fof,BNDN/O/D/OIN/23/02/0061
 bandhan overnight fund,BNDN/O/D/ONF/18/12/0038
 bandhan short duration fund,BNDN/O/D/SDF/00/12/0002
-bandhan bond fund short term,BNDN/O/D/SDF/00/12/0002
 bandhan short term fund,BNDN/O/D/SDF/00/12/0002
+bandhan bond fund short term,BNDN/O/D/SDF/00/12/0002
 bandhan nifty next 50 index fund,BNDN/O/E /EIN/24/08/0082
 bandhan innovation fund,BNDN/O/E /THE/24/02/0071
 bandhan contra fund,BNDN/O/E/COF/26/06/0092
@@ -439,8 +439,8 @@ bandhan financial services fund,BNDN/O/E/SEC/23/01/0063
 bandhan business cycle fund,BNDN/O/E/THE/24/08/0074
 bandhan multi factor fund,BNDN/O/E/THE/25/05/0085
 bandhan healthcare fund,BNDN/O/E/THE/25/08/0087
-bandhan value fund,BNDN/O/E/VAF/08/01/0016
 bandhan sterling value fund,BNDN/O/E/VAF/08/01/0016
+bandhan value fund,BNDN/O/E/VAF/08/01/0016
 bandhan aggressive hybrid fund,BNDN/O/H/AHF/16/11/0030
 bandhan hybrid equity fund,BNDN/O/H/AHF/16/11/0030
 bandhan arbitrage fund,BNDN/O/H/ARB/06/11/0015
@@ -454,15 +454,15 @@ bandhan nifty 50 etf,BNDN/O/O/EET/16/03/0028
 bandhan nifty 50 index fund,BNDN/O/O/EIN/09/11/0022
 bandhan bse sensex etf,BNDN/O/O/EIN/16/03/0029
 bandhan nifty 100 index fund,BNDN/O/O/EIN/21/12/0049
-bandhan all seasons bond fund,BNDN/O/O/FOD/04/07/0009
 bandhan income plus arbitrage active fof,BNDN/O/O/FOD/04/07/0009
 bandhan income plus arbitrage fund of funds,BNDN/O/O/FOD/04/07/0009
-bandhan asset allocation fund of fund aggressive,BNDN/O/O/FOD/09/11/0019
+bandhan all seasons bond fund,BNDN/O/O/FOD/04/07/0009
 bandhan aggressive hybrid passive fof,BNDN/O/O/FOD/09/11/0019
-bandhan conservative hybrid passive fof,BNDN/O/O/FOD/09/11/0020
+bandhan asset allocation fund of fund aggressive,BNDN/O/O/FOD/09/11/0019
 bandhan asset allocation fund of fund conservative,BNDN/O/O/FOD/09/11/0020
-bandhan asset allocation fund of fund moderate,BNDN/O/O/FOD/09/11/0021
+bandhan conservative hybrid passive fof,BNDN/O/O/FOD/09/11/0020
 bandhan multi asset passive fof,BNDN/O/O/FOD/09/11/0021
+bandhan asset allocation fund of fund moderate,BNDN/O/O/FOD/09/11/0021
 bandhan gold etf fof,BNDN/O/O/FOD/25/11/0090
 bandhan silver etf fof,BNDN/O/O/FOD/25/11/0091
 bandhan us equity fund of fund,BNDN/O/O/FOO/21/06/0047
@@ -482,15 +482,15 @@ bank of india credit risk fund,BOIA/O/D/CRF/14/09/0009
 bank of india liquid fund,BOIA/O/D/LIF/08/06/0001
 bank of india money market fund,BOIA/O/D/MMF/24/12/0022
 bank of india overnight fund,BOIA/O/D/ONF/20/01/0015
-bank of india short term fund,BOIA/O/D/SDF/08/10/0004
 bank of india short term income fund,BOIA/O/D/SDF/08/10/0004
-bank of india ultra short term fund,BOIA/O/D/USD/08/06/0002
+bank of india short term fund,BOIA/O/D/SDF/08/10/0004
 bank of india ultra short duration fund,BOIA/O/D/USD/08/06/0002
-bank of india elss tax saver,BOIA/O/E/ELS/08/11/0005
+bank of india ultra short term fund,BOIA/O/D/USD/08/06/0002
 bank of india elss tax saver fund,BOIA/O/E/ELS/08/11/0005
+bank of india elss tax saver,BOIA/O/E/ELS/08/11/0005
 bank of india flexi cap fund,BOIA/O/E/FCF/20/05/0016
-bank of india large cap fund,BOIA/O/E/LCF/20/07/0017
 bank of india blue chip fund,BOIA/O/E/LCF/20/07/0017
+bank of india large cap fund,BOIA/O/E/LCF/20/07/0017
 bank of india large & mid cap fund,BOIA/O/E/LMF/08/07/0003
 bank of india large & mid cap equity fund,BOIA/O/E/LMF/08/07/0003
 bank of india multi cap fund,BOIA/O/E/MCF/22/10/0018
@@ -515,29 +515,29 @@ canara robeco gilt fund,CANA/O/D/GIL/99/10/0004
 canara robeco liquid fund,CANA/O/D/LIF/02/01/0005
 canara robeco ultra short to short term fund,CANA/O/D/LOW/04/12/0009
 canara robeco savings fund,CANA/O/D/LOW/04/12/0009
-canara robeco income fund,CANA/O/D/MLD/02/05/0006
 canara robeco medium to long term fund,CANA/O/D/MLD/02/05/0006
+canara robeco income fund,CANA/O/D/MLD/02/05/0006
 canara robeco overnight fund,CANA/O/D/ONF/19/06/0019
 canara robeco short term fund,CANA/O/D/SDF/10/10/0015
 canara robeco short duration fund,CANA/O/D/SDF/10/10/0015
 canara robeco ultra short term fund,CANA/O/D/USD/03/03/0007
-canara robeco elss tax saver fund,CANA/O/E/ELS/93/03/0003
 canara robeco elss tax saver,CANA/O/E/ELS/93/03/0003
+canara robeco elss tax saver fund,CANA/O/E/ELS/93/03/0003
 canara robeco flexi cap fund,CANA/O/E/FCF/03/07/0008
 canara robeco focused fund,CANA/O/E/FOC/21/02/0020
 canara robeco focused equity fund,CANA/O/E/FOC/21/02/0020
-canara robeco large cap fund,CANA/O/E/LCF/10/03/0014
 canara robeco blue chip equity fund,CANA/O/E/LCF/10/03/0014
-canara robeco large and mid cap fund,CANA/O/E/LMF/05/02/0010
+canara robeco large cap fund,CANA/O/E/LCF/10/03/0014
 canara robeco emerging equities,CANA/O/E/LMF/05/02/0010
+canara robeco large and mid cap fund,CANA/O/E/LMF/05/02/0010
 canara robeco multi cap fund,CANA/O/E/MCF/23/02/0024
 canara robeco mid cap fund,CANA/O/E/MIF/21/12/0023
 canara robeco small cap fund,CANA/O/E/SCF/18/12/0018
 canara robeco banking and financial services fund,CANA/O/E/SEC/26/01/0028
 canara robeco infrastructure fund,CANA/O/E/THE/05/08/0011
 canara robeco infrastructure,CANA/O/E/THE/05/08/0011
-canara robeco consumer trends fund,CANA/O/E/THE/09/05/0013
 canara robeco consumption fund,CANA/O/E/THE/09/05/0013
+canara robeco consumer trends fund,CANA/O/E/THE/09/05/0013
 canara robeco manufacturing fund,CANA/O/E/THE/23/12/0025
 canara robeco value fund,CANA/O/E/VAF/21/02/0021
 canara robeco balanced advantage fund,CANA/O/H/BAF/24/04/0026
@@ -554,8 +554,8 @@ capitalmind flexi cap fund,CMND/O/E /FCF/25/06/0001
 capitalmind arbitrage fund,CMND/O/H/ARB/26/01/0004
 capitalmind multi asset allocation fund,CMND/O/H/MAA/26/01/0003
 dsp fmp series 264 60m 17d,DSPM/C/D/FTP/21/05/0044
-dsp fmp series 267 1246 days,DSPM/C/D/FTP/22/09/0052
 dsp fmp series 267 1172 days,DSPM/C/D/FTP/22/09/0052
+dsp fmp series 267 1246 days,DSPM/C/D/FTP/22/09/0052
 dsp fmp series 268 1281 days,DSPM/C/D/FTP/22/09/0053
 dsp fmp series 270 1172 days,DSPM/C/D/FTP/22/09/0058
 dsp fmp series 270 1144 days,DSPM/C/D/FTP/22/09/0058
@@ -565,31 +565,31 @@ dsp corporate bond fund,DSPM/O/D/CBF/18/03/0034
 dsp credit risk fund,DSPM/O/D/CRF/03/04/0010
 dsp dynamic term fund,DSPM/O/D/DBF/07/02/0017
 dsp strategic bond fund,DSPM/O/D/DBF/07/02/0017
-dsp floating interest rates fund,DSPM/O/D/FLF/21/02/0043
 dsp floater fund,DSPM/O/D/FLF/21/02/0043
+dsp floating interest rates fund,DSPM/O/D/FLF/21/02/0043
 dsp gilt fund,DSPM/O/D/GIL/99/09/0005
 dsp 10y g sec fund,DSPM/O/D/GTN/14/03/0027
 dsp 10 year constant maturity gilt fund,DSPM/O/D/GTN/14/03/0027
 dsp liquidity fund,DSPM/O/D/LIF/98/02/0003
 dsp liquid fund,DSPM/O/D/LIF/98/02/0003
-dsp low duration fund,DSPM/O/D/LOW/14/11/0029
 dsp ultra short to short term fund,DSPM/O/D/LOW/14/11/0029
+dsp low duration fund,DSPM/O/D/LOW/14/11/0029
 dsp bond fund,DSPM/O/D/MDF/97/03/0002
 dsp medium term fund,DSPM/O/D/MDF/97/03/0002
 dsp money market fund,DSPM/O/D/MMF/99/09/0006
 dsp overnight fund,DSPM/O/D/ONF/18/12/0040
 dsp short term fund,DSPM/O/D/SDF/02/08/0008
 dsp financial services sectoral debt fund,DSPM/O/D/SEC/26/07/0100
-dsp ultra short fund,DSPM/O/D/USD/06/05/0013
 dsp ultra short term fund,DSPM/O/D/USD/06/05/0013
+dsp ultra short fund,DSPM/O/D/USD/06/05/0013
 dsp elss tax saver fund,DSPM/O/E/ELS/06/11/0016
 dsp flexi cap fund,DSPM/O/E/FCF/97/03/0001
-dsp focused fund,DSPM/O/E/FOC/10/03/0022
 dsp focus fund,DSPM/O/E/FOC/10/03/0022
+dsp focused fund,DSPM/O/E/FOC/10/03/0022
 dsp top 100 equity fund,DSPM/O/E/LCF/03/01/0009
 dsp large cap fund,DSPM/O/E/LCF/03/01/0009
-dsp large & mid cap fund,DSPM/O/E/LMF/00/02/0007
 dsp equity opportunities fund,DSPM/O/E/LMF/00/02/0007
+dsp large & mid cap fund,DSPM/O/E/LMF/00/02/0007
 dsp multi cap fund,DSPM/O/E/MCF/23/07/0071
 dsp multicap fund,DSPM/O/E/MCF/23/07/0071
 dsp midcap fund,DSPM/O/E/MIF/06/09/0014
@@ -602,8 +602,8 @@ dsp banking & financial services fund,DSPM/O/E/SEC/23/08/0067
 dsp business cycle fund,DSPM/O/E/THE/24/06/0077
 dsp value fund,DSPM/O/E/VAF/19/11/0042
 dsp arbitrage fund,DSPM/O/H/ARB/17/12/0033
-dsp equity & bond fund,DSPM/O/H/BHF/99/04/0004
 dsp aggressive hybrid fund,DSPM/O/H/BHF/99/04/0004
+dsp equity & bond fund,DSPM/O/H/BHF/99/04/0004
 dsp conservative hybrid fund,DSPM/O/H/CHF/04/04/0012
 dsp dynamic asset allocation fund,DSPM/O/H/DAA/13/10/0026
 dsp equity savings fund,DSPM/O/H/ESF/15/09/0030
@@ -611,8 +611,8 @@ dsp multi asset allocation fund,DSPM/O/H/MAA/23/06/0065
 dsp bse liquid rate etf,DSPM/O/O/DET/24/02/0073
 dsp nifty 10 yr benchmark g sec etf,DSPM/O/O/DET/26/02/0099
 dsp nifty sdl plus g sec jun 2028 30 70 index fund,DSPM/O/O/DIN/21/12/0049
-dsp crisil ibx 50 50 gilt plus sdl april 2033 index fund,DSPM/O/O/DIN/22/11/0056
 dsp crisil sdl plus g sec apr 2033 50 50 index fund,DSPM/O/O/DIN/22/11/0056
+dsp crisil ibx 50 50 gilt plus sdl april 2033 index fund,DSPM/O/O/DIN/22/11/0056
 dsp nifty sdl plus g sec sep 2027 50 50 index fund,DSPM/O/O/DIN/22/11/0057
 dsp nifty bank etf,DSPM/O/O/EET/22/12/0055
 dsp nifty it etf,DSPM/O/O/EET/22/12/0061
@@ -653,15 +653,15 @@ dsp world gold mining overseas equity omni fof,DSPM/O/O/FOO/07/07/0018
 dsp world gold fund of fund,DSPM/O/O/FOO/07/07/0018
 dsp global clean energy overseas equity omni fof,DSPM/O/O/FOO/09/06/0020
 dsp global clean energy fund of fund,DSPM/O/O/FOO/09/06/0020
-dsp world mining fund of fund,DSPM/O/O/FOO/09/06/0021
 dsp world mining overseas equity omni fof,DSPM/O/O/FOO/09/06/0021
-dsp us flexible equity fund of fund,DSPM/O/O/FOO/12/05/0024
+dsp world mining fund of fund,DSPM/O/O/FOO/09/06/0021
 dsp us specific equity omni fof,DSPM/O/O/FOO/12/05/0024
-dsp income plus arbitrage fund of fund,DSPM/O/O/FOO/14/06/0028
+dsp us flexible equity fund of fund,DSPM/O/O/FOO/12/05/0024
 dsp global allocation fund of fund,DSPM/O/O/FOO/14/06/0028
+dsp income plus arbitrage fund of fund,DSPM/O/O/FOO/14/06/0028
 dsp income plus arbitrage omni fof,DSPM/O/O/FOO/14/06/0028
-dsp global innovation fund of fund,DSPM/O/O/FOO/21/08/0048
 dsp global innovation overseas equity omni fof,DSPM/O/O/FOO/21/08/0048
+dsp global innovation fund of fund,DSPM/O/O/FOO/21/08/0048
 dsp us treasury fund of fund,DSPM/O/O/FOO/24/01/0072
 dsp us specific debt passive fof,DSPM/O/O/FOO/24/01/0072
 dsp gold etf,DSPM/O/O/GET/23/02/0060
@@ -676,8 +676,8 @@ bharat bond etf april 2031,EDEL/O/D/DET/20/07/0030
 bharat bond etf april 2025,EDEL/O/D/DET/20/07/0031
 bharat bond etf april 2032,EDEL/O/D/DET/21/11/0039
 edelweiss crisil ibx aaa bond nbfc hfc jun 2027 index fund,EDEL/O/D/DIN/25/01/0067
-edelweiss gilt fund,EDEL/O/D/GIL/13/08/0012
 edelweiss government securities fund,EDEL/O/D/GIL/13/08/0012
+edelweiss gilt fund,EDEL/O/D/GIL/13/08/0012
 edelweiss liquid fund,EDEL/O/D/LIF/07/08/0002
 edelweiss low duration fund,EDEL/O/D/LOW/25/02/0068
 edelweiss ultra short to short term fund,EDEL/O/D/LOW/25/02/0068
@@ -711,8 +711,8 @@ edelweiss crisil ibx 50 50 gilt plus sdl april 2037 index fund,EDEL/O/O/DIN/22/0
 edelweiss crisil ibx 50 50 gilt plus sdl june 2027 index fund,EDEL/O/O/DIN/22/09/0045
 edelweiss crisil ibx 50 50 gilt plus sdl sep 2028 index fund,EDEL/O/O/DIN/22/09/0046
 edelweiss crisil ibx 50 50 gilt plus sdl short duration index fund,EDEL/O/O/DIN/23/01/0052
-edelweiss crisil ibx aaa financial services bond jan 2028 index fund,EDEL/O/O/DIN/24/11/0064
 edelweiss crisil ibx aaa financial services jan 2028 index fund,EDEL/O/O/DIN/24/11/0064
+edelweiss crisil ibx aaa financial services bond jan 2028 index fund,EDEL/O/O/DIN/24/11/0064
 edelweiss nifty bank etf,EDEL/O/O/EET/24/08/0061
 edelweiss nifty500 multicap momentum quality 50 etf,EDEL/O/O/EET/24/09/0063
 edelweiss nifty largemidcap 250 etf,EDEL/O/O/EET/25/08/0072
@@ -736,8 +736,8 @@ bharat bond fof april 2025,EDEL/O/O/FOD/20/07/0033
 bharat bond etf fof april 2032,EDEL/O/O/FOD/21/11/0040
 edelweiss gold and silver etf fof,EDEL/O/O/FOD/22/06/0043
 bharat bond etf fof april 2033,EDEL/O/O/FOD/22/11/0051
-edelweiss income plus arbitrage omni fund of funds,EDEL/O/O/FOD/25/06/0070
 edelweiss income plus arbitrage active fund of funds,EDEL/O/O/FOD/25/06/0070
+edelweiss income plus arbitrage omni fund of funds,EDEL/O/O/FOD/25/06/0070
 edelweiss multi asset omni fund of fund,EDEL/O/O/FOD/25/07/0071
 edelweiss gold etf fund of fund,EDEL/O/O/FOD/25/11/0076
 edelweiss silver etf fund of fund,EDEL/O/O/FOD/25/11/0077
@@ -754,8 +754,8 @@ edelweiss bse capital markets & insurance etf,EDEL/O/O/OET/24/11/0065
 edelweiss bse top 10 bank etf,EDEL/O/O/OET/26/07/0082
 edelweiss bse internet economy index fund,EDEL/O/O/OIN/25/02/0069
 edelweiss nifty largemidcap250 plus 8 13yr g sec 70 30 index fund,EDEL/O/O/OIN/26/02/0079
-franklin india long term fund,FTMF/O/D /LON/24/06/0046
 franklin india long duration fund,FTMF/O/D /LON/24/06/0046
+franklin india long term fund,FTMF/O/D /LON/24/06/0046
 franklin india ultra short to short term fund,FTMF/O/D /LOW/25/02/0050
 franklin india low duration fund,FTMF/O/D /LOW/25/02/0050
 franklin india medium to long term fund,FTMF/O/D /MLD/24/06/0047
@@ -844,8 +844,8 @@ hdfc fmp 1269d march 2023,HDFC/C/D/FTP/22/09/0119
 hdfc charity fund for cancer cure,HDFC/C/D/FTP/23/02/0125
 hdfc banking and psu debt fund,HDFC/O/D/BPF/14/03/0023
 hdfc corporate bond fund,HDFC/O/D/CBF/18/03/0040
-hdfc credit risk debt fund,HDFC/O/D/CRF/18/03/0042
 hdfc credit risk fund,HDFC/O/D/CRF/18/03/0042
+hdfc credit risk debt fund,HDFC/O/D/CRF/18/03/0042
 hdfc dynamic term fund,HDFC/O/D/DBF/18/03/0031
 hdfc dynamic debt fund,HDFC/O/D/DBF/18/03/0031
 hdfc nifty g sec dec 2026 index fund,HDFC/O/D/DIN/22/10/0103
@@ -883,11 +883,11 @@ hdfc focused fund,HDFC/O/E/FOC/04/06/0012
 hdfc focused 30 fund,HDFC/O/E/FOC/04/06/0012
 hdfc large cap fund,HDFC/O/E/LCF/96/10/0004
 hdfc top 100 fund,HDFC/O/E/LCF/96/10/0004
-hdfc large and mid cap fund,HDFC/O/E/LMF/94/02/0001
 hdfc large & mid cap fund,HDFC/O/E/LMF/94/02/0001
+hdfc large and mid cap fund,HDFC/O/E/LMF/94/02/0001
 hdfc multi cap fund,HDFC/O/E/MCF/21/10/0080
-hdfc mid cap fund,HDFC/O/E/MIF/07/04/0015
 hdfc mid cap opportunities fund,HDFC/O/E/MIF/07/04/0015
+hdfc mid cap fund,HDFC/O/E/MIF/07/04/0015
 hdfc small cap fund,HDFC/O/E/SCF/07/03/0014
 hdfc banking & financial services fund,HDFC/O/E/SEC/21/02/0076
 hdfc defence fund,HDFC/O/E/SEC/23/01/0123
@@ -901,12 +901,12 @@ hdfc non cyclical consumer fund,HDFC/O/E/THE/23/04/0124
 hdfc consumption fund,HDFC/O/E/THE/23/04/0124
 hdfc manufacturing fund,HDFC/O/E/THE/24/02/0133
 hdfc innovation fund,HDFC/O/E/THE/25/02/0141
-hdfc aggressive hybrid fund,HDFC/O/H/AHF/18/03/0034
 hdfc hybrid equity fund,HDFC/O/H/AHF/18/03/0034
+hdfc aggressive hybrid fund,HDFC/O/H/AHF/18/03/0034
 hdfc arbitrage fund,HDFC/O/H/ARB/07/08/0017
 hdfc balanced advantage fund,HDFC/O/H/BAF/18/03/0043
-hdfc conservative hybrid fund,HDFC/O/H/CHF/03/10/0011
 hdfc hybrid debt fund,HDFC/O/H/CHF/03/10/0011
+hdfc conservative hybrid fund,HDFC/O/H/CHF/03/10/0011
 hdfc equity savings fund,HDFC/O/H/ESF/04/07/0013
 hdfc multi asset fund,HDFC/O/H/MAA/18/03/0037
 hdfc multi asset allocation fund,HDFC/O/H/MAA/18/03/0037
@@ -920,8 +920,8 @@ hdfc nifty midcap 150 etf,HDFC/O/O/EET/22/10/0112
 hdfc nifty smallcap 250 etf,HDFC/O/O/EET/22/10/0113
 hdfc nifty psu bank etf,HDFC/O/O/EET/23/10/0130
 hdfc nifty metal etf,HDFC/O/O/EET/26/05/0151
-hdfc bse sensex index fund,HDFC/O/O/EIN/02/06/0009
 hdfc index fund bse sensex,HDFC/O/O/EIN/02/06/0009
+hdfc bse sensex index fund,HDFC/O/O/EIN/02/06/0009
 hdfc nifty 50 index fund,HDFC/O/O/EIN/02/06/0010
 hdfc index fund nifty 50,HDFC/O/O/EIN/02/06/0010
 hdfc nifty50 equal weight index fund,HDFC/O/O/EIN/21/07/0077
@@ -944,8 +944,8 @@ hdfc nifty auto index fund,HDFC/O/O/EIN/26/03/0149
 hdfc bse reits and commercial real estate index fund,HDFC/O/O/EIN/26/08/0152
 hdfc asset allocator fund of funds,HDFC/O/O/FOD/07/06/0016
 hdfc multi asset active fof,HDFC/O/O/FOD/07/06/0016
-hdfc gold etf fund of fund,HDFC/O/O/FOD/11/09/0020
 hdfc gold fund,HDFC/O/O/FOD/11/09/0020
+hdfc gold etf fund of fund,HDFC/O/O/FOD/11/09/0020
 hdfc income plus arbitrage active fof,HDFC/O/O/FOD/18/03/0041
 hdfc dynamic pe ratio fund of funds,HDFC/O/O/FOD/18/03/0041
 hdfc silver etf fund of fund,HDFC/O/O/FOD/22/08/0096
@@ -953,25 +953,25 @@ hdfc diversified equity all cap active fof,HDFC/O/O/FOD/25/07/0142
 hdfc income plus arbitrage omni fof,HDFC/O/O/FOD/25/10/0146
 hdfc gold silver passive fof,HDFC/O/O/FOD/26/03/0148
 hdfc nifty metal etf fof,HDFC/O/O/FOD/26/05/0150
-hdfc developed world overseas equity passive fof,HDFC/O/O/FOO/21/08/0079
 hdfc developed world equity passive fof,HDFC/O/O/FOO/21/08/0079
+hdfc developed world overseas equity passive fof,HDFC/O/O/FOO/21/08/0079
 hdfc developed world indexes fund of funds,HDFC/O/O/FOO/21/08/0079
-hdfc gold etf,HDFC/O/O/GET/10/06/0019
 hdfc gold exchange traded fund,HDFC/O/O/GET/10/06/0019
+hdfc gold etf,HDFC/O/O/GET/10/06/0019
 hdfc nifty50 value 20 etf,HDFC/O/O/OET/21/12/0094
 hdfc nifty200 momentum 30 etf,HDFC/O/O/OET/21/12/0097
 hdfc nifty100 low volatility 30 etf,HDFC/O/O/OET/21/12/0098
 hdfc nifty it etf,HDFC/O/O/OET/21/12/0099
 hdfc nifty private bank etf,HDFC/O/O/OET/22/01/0100
 hdfc business cycle fund,HDFC/O/O/THE/22/09/0102
-hdfc childrens gift fund,HDFC/O/S/CHI/01/01/0007
 hdfc children s fund,HDFC/O/S/CHI/01/01/0007
-hdfc retirement savings fund equity,HDFC/O/S/RET/15/08/0024
+hdfc childrens gift fund,HDFC/O/S/CHI/01/01/0007
 hdfc retirement fund equity,HDFC/O/S/RET/15/08/0024
-hdfc retirement savings fund hybrid equity,HDFC/O/S/RET/15/08/0025
+hdfc retirement savings fund equity,HDFC/O/S/RET/15/08/0024
 hdfc retirement fund hybrid equity,HDFC/O/S/RET/15/08/0025
-hdfc retirement fund hybrid debt,HDFC/O/S/RET/15/08/0026
+hdfc retirement savings fund hybrid equity,HDFC/O/S/RET/15/08/0025
 hdfc retirement savings fund hybrid debt,HDFC/O/S/RET/15/08/0026
+hdfc retirement fund hybrid debt,HDFC/O/S/RET/15/08/0026
 helios overnight fund,HELI/O/D/ONF/23/09/0002
 helios large & mid cap fund,HELI/O/E /LMF/24/06/0005
 helios small cap fund,HELI/O/E /SCF/25/07/0007
@@ -983,11 +983,11 @@ helios balanced advantage fund,HELI/O/H/BAF/24/02/0003
 hsbc crisil ibx 50 50 gilt plus sdl apr 2028 index fund,HSBC/O/D/DIN/22/03/0029
 hsbc crisil ibx gilt june 2027 index fund,HSBC/O/D/DIN/23/01/0035
 hsbc liquid fund,HSBC/O/D/LIF/02/08/0001
-hsbc medium to long duration fund,HSBC/O/D/MLD/02/08/0002
 hsbc medium to long term fund,HSBC/O/D/MLD/02/08/0002
+hsbc medium to long duration fund,HSBC/O/D/MLD/02/08/0002
 hsbc overnight fund,HSBC/O/D/ONF/19/03/0023
-hsbc ultra short term fund,HSBC/O/D/USD/19/12/0024
 hsbc ultra short duration fund,HSBC/O/D/USD/19/12/0024
+hsbc ultra short term fund,HSBC/O/D/USD/19/12/0024
 hsbc tax saver equity fund,HSBC/O/E/ELS/06/11/0010
 hsbc flexi cap fund,HSBC/O/E/FCF/04/01/0005
 hsbc focused fund,HSBC/O/E/FOC/20/03/0025
@@ -997,12 +997,12 @@ hsbc multi cap fund,HSBC/O/E/MCF/22/12/0034
 hsbc consumption fund,HSBC/O/E/THE/23/05/0036
 hsbc conservative hybrid fund,HSBC/O/H/CHF/04/01/0006
 hsbc multi asset allocation fund,HSBC/O/H/MAA/24/01/0037
-hsbc income plus arbitrage active fof,HSBC/O/O/FOD/13/12/0015
 hsbc managed solutions conservative,HSBC/O/O/FOD/13/12/0015
+hsbc income plus arbitrage active fof,HSBC/O/O/FOD/13/12/0015
 hsbc aggressive hybrid active fof,HSBC/O/O/FOD/13/12/0016
 hsbc managed solutions,HSBC/O/O/FOD/13/12/0016
-hsbc managed solutions moderate,HSBC/O/O/FOD/13/12/0017
 hsbc multi asset active fof,HSBC/O/O/FOD/13/12/0017
+hsbc managed solutions moderate,HSBC/O/O/FOD/13/12/0017
 hsbc gold etf fund of fund,HSBC/O/O/FOD/26/03/0042
 hsbc global emerging markets fund,HSBC/O/O/FOO/07/08/0012
 hsbc brazil fund,HSBC/O/O/FOO/11/02/0013
@@ -1013,28 +1013,28 @@ icici prudential fixed maturity series 85 10 years i,ICIC/C/D/FTP/18/10/0098
 icici prudential fixed maturity series 88 1226 days f,ICIC/C/D/FTP/21/12/0157
 icici prudential fixed maturity series 88 1303 days s,ICIC/C/D/FTP/22/11/0168
 icici prudential long term wealth enhancement fund,ICIC/C/E/OES/17/12/0058
-icici prudential banking and psu debt fund,ICIC/O/D/BPF/09/12/0036
 icici prudential banking & psu debt fund,ICIC/O/D/BPF/09/12/0036
+icici prudential banking and psu debt fund,ICIC/O/D/BPF/09/12/0036
 icici prudential corporate bond fund,ICIC/O/D/CBF/09/06/0034
 icici prudential credit risk fund,ICIC/O/D/CRF/10/10/0040
-icici prudential dynamic term fund,ICIC/O/D/DBF/98/05/0004
 icici prudential all seasons bond fund,ICIC/O/D/DBF/98/05/0004
+icici prudential dynamic term fund,ICIC/O/D/DBF/98/05/0004
 icici prudential nifty sdl dec 2028 index fund,ICIC/O/D/DIN/22/05/0148
 icici prudential nifty g sec dec 2030 index fund,ICIC/O/D/DIN/22/05/0149
 icici prudential nifty sdl sep 2026 index fund,ICIC/O/D/DIN/22/11/0164
 icici prudential floating interest fund,ICIC/O/D/FLF/13/12/0047
 icici prudential floating interest rates fund,ICIC/O/D/FLF/13/12/0047
 icici prudential gilt fund,ICIC/O/D/GIL/99/07/0012
-icici prudential 10 year constant maturity gilt fund,ICIC/O/D/GTN/14/06/0050
 icici prudential constant maturity gilt fund,ICIC/O/D/GTN/14/06/0050
+icici prudential 10 year constant maturity gilt fund,ICIC/O/D/GTN/14/06/0050
 icici prudential liquid fund,ICIC/O/D/LIF/98/05/0007
 icici prudential long term bond fund,ICIC/O/D/LON/98/05/0002
 icici prudential long term fund,ICIC/O/D/LON/98/05/0002
 icici prudential ultra short to short term fund,ICIC/O/D/LOW/98/05/0005
 icici prudential medium term bond fund,ICIC/O/D/MDF/12/02/0042
 icici prudential medium term fund,ICIC/O/D/MDF/12/02/0042
-icici prudential medium to long term fund,ICIC/O/D/MLD/08/05/0033
 icici prudential bond fund,ICIC/O/D/MLD/08/05/0033
+icici prudential medium to long term fund,ICIC/O/D/MLD/08/05/0033
 icici prudential money market fund,ICIC/O/D/MMF/98/05/0008
 icici prudential overnight fund,ICIC/O/D/ONF/18/10/0104
 icici prudential short term fund,ICIC/O/D/SDF/98/05/0003
@@ -1047,17 +1047,17 @@ icici prudential nifty50 equal weight index fund,ICIC/O/E/EIN/22/02/0147
 icici prudential nifty pharma index fund,ICIC/O/E/EIN/22/05/0150
 icici prudential nifty auto index fund,ICIC/O/E/EIN/22/05/0152
 icici prudential elss tax saver fund,ICIC/O/E/ELS/99/07/0011
-icici prudential flexicap fund,ICIC/O/E/FCF/21/02/0122
 icici prudential flexi cap fund,ICIC/O/E/FCF/21/02/0122
-icici prudential focused fund,ICIC/O/E/FOC/22/02/0140
+icici prudential flexicap fund,ICIC/O/E/FCF/21/02/0122
 icici prudential focused equity fund,ICIC/O/E/FOC/22/02/0140
+icici prudential focused fund,ICIC/O/E/FOC/22/02/0140
 icici prudential blue chip fund,ICIC/O/E/LCF/98/05/0006
 icici prudential large cap fund,ICIC/O/E/LCF/98/05/0006
 icici prudential large & mid cap fund,ICIC/O/E/LMF/98/05/0001
 icici prudential multicap fund,ICIC/O/E/MCF/01/08/0016
 icici prudential multi cap fund,ICIC/O/E/MCF/01/08/0016
-icici prudential midcap fund,ICIC/O/E/MIF/04/06/0026
 icici prudential mid cap fund,ICIC/O/E/MIF/04/06/0026
+icici prudential midcap fund,ICIC/O/E/MIF/04/06/0026
 icici prudential small cap fund,ICIC/O/E/SCF/07/06/0031
 icici prudential smallcap fund,ICIC/O/E/SCF/07/06/0031
 icici prudential technology fund,ICIC/O/E/SEC/00/01/0014
@@ -1067,8 +1067,8 @@ icici prudential fmcg fund,ICIC/O/E/SEC/99/02/0010
 icici prudential infrastructure fund,ICIC/O/E/THE/05/06/0027
 icici prudential exports & services fund,ICIC/O/E/THE/05/06/0028
 icici prudential us blue chip equity fund,ICIC/O/E/THE/12/03/0043
-icici prudential pharma healthcare and diagnostics p h d fund,ICIC/O/E/THE/18/05/0064
 icici prudential healthcare fund,ICIC/O/E/THE/18/05/0064
+icici prudential pharma healthcare and diagnostics p h d fund,ICIC/O/E/THE/18/05/0064
 icici prudential manufacturing fund,ICIC/O/E/THE/18/05/0066
 icici prudential india opportunities fund,ICIC/O/E/THE/18/10/0090
 icici prudential bharat consumption fund,ICIC/O/E/THE/18/12/0105
@@ -1088,10 +1088,10 @@ icici prudential active momentum fund,ICIC/O/E/THE/25/01/0196
 icici prudential conglomerate fund,ICIC/O/E/THE/25/04/0200
 icici prudential value fund,ICIC/O/E/VAF/04/06/0025
 icici prudential value discovery fund,ICIC/O/E/VAF/04/06/0025
-icici prudential equity & debt fund,ICIC/O/H/AHF/99/09/0013
 icici prudential aggressive hybrid fund,ICIC/O/H/AHF/99/09/0013
-icici prudential arbitrage fund,ICIC/O/H/ARB/06/09/0029
+icici prudential equity & debt fund,ICIC/O/H/AHF/99/09/0013
 icici prudential equity arbitrage fund,ICIC/O/H/ARB/06/09/0029
+icici prudential arbitrage fund,ICIC/O/H/ARB/06/09/0029
 icici prudential balanced advantage fund,ICIC/O/H/BAF/06/09/0030
 icici prudential balanced hybrid fund,ICIC/O/H/BHF/26/05/0203
 icici prudential conservative hybrid fund,ICIC/O/H/CHF/10/10/0039
@@ -1151,17 +1151,17 @@ icici prudential nifty 500 index fund,ICIC/O/O/EIN/24/09/0185
 icici prudential nifty200 quality 30 index fund,ICIC/O/O/EIN/25/02/0193
 icici prudential nifty top 15 equal weight index fund,ICIC/O/O/EIN/25/02/0195
 icici prudential nifty private bank index fund,ICIC/O/O/EIN/25/03/0197
-icici prudential multi sector passive fof,ICIC/O/O/FOD/03/10/0020
 icici prudential passive strategy fund fof,ICIC/O/O/FOD/03/10/0020
+icici prudential multi sector passive fof,ICIC/O/O/FOD/03/10/0020
 icici prudential asset allocator fund fof,ICIC/O/O/FOD/03/10/0021
 icici prudential dynamic asset allocation active fof,ICIC/O/O/FOD/03/10/0021
 icici prudential thematic advantage fund fof,ICIC/O/O/FOD/03/10/0022
 icici prudential aggressive hybrid active fof,ICIC/O/O/FOD/03/10/0022
 icici prudential diversified debt strategy active fof,ICIC/O/O/FOD/03/10/0023
 icici prudential debt management fund fof,ICIC/O/O/FOD/03/10/0023
-icici prudential income plus arbitrage omni fof,ICIC/O/O/FOD/03/10/0024
-icici prudential income plus arbitrage active fof,ICIC/O/O/FOD/03/10/0024
 icici prudential income optimizer fund fof,ICIC/O/O/FOD/03/10/0024
+icici prudential income plus arbitrage active fof,ICIC/O/O/FOD/03/10/0024
+icici prudential income plus arbitrage omni fof,ICIC/O/O/FOD/03/10/0024
 icici prudential gold etf fof,ICIC/O/O/FOD/11/08/0041
 icici prudential gold savings fund fof,ICIC/O/O/FOD/11/08/0041
 icici prudential bharat 22 fof,ICIC/O/O/FOD/18/06/0067
@@ -1202,8 +1202,8 @@ groww elss tax saver fund,INDB/O/E/ELS/17/08/0006
 groww large cap fund,INDB/O/E/LCF/11/11/0002
 groww value fund,INDB/O/E/VAF/15/08/0005
 groww aggressive hybrid fund,INDB/O/H/AHF/18/05/0008
-invesco india banking and psu debt fund,INVM/O/D/BPF/12/09/0022
 invesco india banking and psu fund,INVM/O/D/BPF/12/09/0022
+invesco india banking and psu debt fund,INVM/O/D/BPF/12/09/0022
 invesco india corporate bond fund,INVM/O/D/CBF/07/07/0010
 invesco india credit risk fund,INVM/O/D/CRF/14/02/0025
 invesco india gilt fund,INVM/O/D/GIL/07/09/0013
@@ -1214,10 +1214,10 @@ invesco india medium duration fund,INVM/O/D/MDF/21/05/0036
 invesco india medium term fund,INVM/O/D/MDF/21/05/0036
 invesco india money market fund,INVM/O/D/MMF/09/06/0016
 invesco india overnight fund,INVM/O/D/ONF/19/12/0032
-invesco india short term fund,INVM/O/D/SDF/07/03/0007
 invesco india short duration fund,INVM/O/D/SDF/07/03/0007
-invesco india ultra short term fund,INVM/O/D/USD/10/11/0019
+invesco india short term fund,INVM/O/D/SDF/07/03/0007
 invesco india ultra short duration fund,INVM/O/D/USD/10/11/0019
+invesco india ultra short term fund,INVM/O/D/USD/10/11/0019
 invesco india contra fund,INVM/O/E/COF/06/11/0003
 invesco india elss tax saver fund,INVM/O/E/ELS/06/11/0002
 invesco india flexi cap fund,INVM/O/E/FCF/21/09/0037
@@ -1226,10 +1226,10 @@ invesco india large cap fund,INVM/O/E/LCF/09/06/0015
 invesco india large & mid cap fund,INVM/O/E/LMF/07/04/0008
 invesco india multicap fund,INVM/O/E/MCF/07/09/0012
 invesco india multi cap fund,INVM/O/E/MCF/07/09/0012
-invesco india mid cap fund,INVM/O/E/MIF/07/01/0006
 invesco india midcap fund,INVM/O/E/MIF/07/01/0006
-invesco india smallcap fund,INVM/O/E/SCF/18/07/0030
+invesco india mid cap fund,INVM/O/E/MIF/07/01/0006
 invesco india small cap fund,INVM/O/E/SCF/18/07/0030
+invesco india smallcap fund,INVM/O/E/SCF/18/07/0030
 invesco india financial services fund,INVM/O/E/SEC/07/11/0014
 invesco india technology fund,INVM/O/E/SEC/24/08/0046
 invesco india pharma and healthcare fund,INVM/O/E/SEC/26/02/0054
@@ -1258,8 +1258,8 @@ invesco india invesco global consumer trends fund of fund,INVM/O/O/FOO/20/10/003
 invesco india invesco eqqq nasdaq 100 etf fund of fund,INVM/O/O/FOO/21/10/0038
 invesco india gold exchange traded fund,INVM/O/O/GET/10/01/0018
 invesco india nifty 50 exchange traded fund,INVM/O/O/OET/11/05/0020
-iti dynamic term fund,ITIM/O/D/DBF/21/05/0013
 iti dynamic bond fund,ITIM/O/D/DBF/21/05/0013
+iti dynamic term fund,ITIM/O/D/DBF/21/05/0013
 iti liquid fund,ITIM/O/D/LIF/19/02/0003
 iti overnight fund,ITIM/O/D/ONF/19/09/0005
 iti elss tax saver fund,ITIM/O/E/ELS/19/02/0002
@@ -1283,8 +1283,8 @@ jioblackrock money market fund,JBMF/O/D /MMF/25/06/0002
 jioblackrock overnight fund,JBMF/O/D /ONF/25/06/0003
 jioblackrock ultra short to short term fund,JBMF/O/D/LOW/25/11/0012
 jioblackrock low duration fund,JBMF/O/D/LOW/25/11/0012
-jioblackrock short duration fund,JBMF/O/D/SDF/25/11/0010
 jioblackrock short term fund,JBMF/O/D/SDF/25/11/0010
+jioblackrock short duration fund,JBMF/O/D/SDF/25/11/0010
 jioblackrock flexi cap fund,JBMF/O/E/FCF/25/08/0009
 jioblackrock large cap fund,JBMF/O/E/LCF/26/02/0014
 jioblackrock sector rotation fund,JBMF/O/E/THE/25/11/0013
@@ -1313,44 +1313,44 @@ kotak fmp series 310,KOTM/C/D/FTP/23/02/0102
 kotak banking and psu debt fund,KOTM/O/D/BPF/98/12/0003
 kotak corporate bond fund,KOTM/O/D/CBF/07/09/0021
 kotak credit risk fund,KOTM/O/D/CRF/10/03/0028
-kotak dynamic term fund,KOTM/O/D/DBF/04/11/0014
 kotak dynamic bond fund,KOTM/O/D/DBF/04/11/0014
-kotak floating rate fund,KOTM/O/D/FLF/19/03/0056
+kotak dynamic term fund,KOTM/O/D/DBF/04/11/0014
 kotak floating interest rates fund,KOTM/O/D/FLF/19/03/0056
+kotak floating rate fund,KOTM/O/D/FLF/19/03/0056
 kotak gilt fund,KOTM/O/D/GIL/98/12/0002
 kotak liquid fund,KOTM/O/D/LIF/03/09/0009
-kotak long term fund,KOTM/O/D/LON/24/01/0121
 kotak long duration fund,KOTM/O/D/LON/24/01/0121
-kotak ultra short to short term fund,KOTM/O/D/LOW/08/03/0024
+kotak long term fund,KOTM/O/D/LON/24/01/0121
 kotak low duration fund,KOTM/O/D/LOW/08/03/0024
+kotak ultra short to short term fund,KOTM/O/D/LOW/08/03/0024
 kotak medium term fund,KOTM/O/D/MDF/13/09/0030
-kotak bond fund,KOTM/O/D/MLD/99/10/0005
 kotak medium to long term fund,KOTM/O/D/MLD/99/10/0005
+kotak bond fund,KOTM/O/D/MLD/99/10/0005
 kotak money market fund,KOTM/O/D/MMF/03/06/0008
 kotak overnight fund,KOTM/O/D/ONF/18/12/0054
-kotak short term fund,KOTM/O/D/SDF/99/10/0006
 kotak bond short term fund,KOTM/O/D/SDF/99/10/0006
+kotak short term fund,KOTM/O/D/SDF/99/10/0006
 kotak ultra short term fund,KOTM/O/D/USD/04/07/0013
 kotak savings fund,KOTM/O/D/USD/04/07/0013
 kotak contra fund,KOTM/O/E/COF/05/01/0015
 kotak india eq contra fund,KOTM/O/E/COF/05/01/0015
 kotak yield fund,KOTM/O/E/DYF/25/07/0160
 kotak elss tax saver fund,KOTM/O/E/ELS/05/09/0017
-kotak flexi cap fund,KOTM/O/E/FCF/09/06/0026
 kotak flexicap fund,KOTM/O/E/FCF/09/06/0026
-kotak focused equity fund,KOTM/O/E/FOC/18/12/0055
+kotak flexi cap fund,KOTM/O/E/FCF/09/06/0026
 kotak focused fund,KOTM/O/E/FOC/18/12/0055
+kotak focused equity fund,KOTM/O/E/FOC/18/12/0055
 kotak multi sector omni fof,KOTM/O/E/FOD/26/03/0169
 kotak diversified equity all cap omni fof,KOTM/O/E/FOD/26/05/0168
 kotak blue chip fund,KOTM/O/E/LCF/98/11/0001
 kotak large cap fund,KOTM/O/E/LCF/98/11/0001
-kotak equity opportunities fund,KOTM/O/E/LMF/04/01/0010
 kotak large & mid cap fund,KOTM/O/E/LMF/04/01/0010
+kotak equity opportunities fund,KOTM/O/E/LMF/04/01/0010
 kotak large & midcap fund,KOTM/O/E/LMF/04/01/0010
-kotak multi cap fund,KOTM/O/E/MCF/21/07/0067
 kotak multicap fund,KOTM/O/E/MCF/21/07/0067
-kotak midcap fund,KOTM/O/E/MIF/06/09/0018
+kotak multi cap fund,KOTM/O/E/MCF/21/07/0067
 kotak emerging equity fund,KOTM/O/E/MIF/06/09/0018
+kotak midcap fund,KOTM/O/E/MIF/06/09/0018
 kotak mid cap fund,KOTM/O/E/MIF/06/09/0018
 kotak small cap fund,KOTM/O/E/SCF/04/07/0012
 kotak banking and financial services fund,KOTM/O/E/SEC/22/11/0093
@@ -1364,8 +1364,8 @@ kotak business cycle fund,KOTM/O/E/THE/22/08/0077
 kotak quant fund,KOTM/O/E/THE/23/04/0107
 kotak consumption fund,KOTM/O/E/THE/23/06/0112
 kotak special opportunities fund,KOTM/O/E/THE/24/05/0126
-kotak transportation & logistics fund,KOTM/O/E/THE/24/06/0133
 kotak transportation and logistics fund,KOTM/O/E/THE/24/06/0133
+kotak transportation & logistics fund,KOTM/O/E/THE/24/06/0133
 kotak mnc fund,KOTM/O/E/THE/24/09/0131
 kotak energy opportunities fund,KOTM/O/E/THE/24/10/0138
 kotak active momentum fund,KOTM/O/E/THE/25/07/0151
@@ -1376,8 +1376,8 @@ kotak equity hybrid fund,KOTM/O/H/AHF/99/10/0004
 kotak arbitrage fund,KOTM/O/H/ARB/05/06/0016
 kotak equity arbitrage fund,KOTM/O/H/ARB/05/06/0016
 kotak balanced advantage fund,KOTM/O/H/BAF/18/05/0036
-kotak conservative hybrid fund,KOTM/O/H/CHF/02/11/0007
 kotak debt hybrid fund,KOTM/O/H/CHF/02/11/0007
+kotak conservative hybrid fund,KOTM/O/H/CHF/02/11/0007
 kotak equity savings fund,KOTM/O/H/ESF/14/08/0031
 kotak multi asset active fof,KOTM/O/H/FOD/26/01/0164
 kotak multi asset allocation fund,KOTM/O/H/MAA/23/06/0109
@@ -1428,25 +1428,25 @@ kotak nifty bank index fund,KOTM/O/O/EIN/26/05/0167
 kotak multi asset omni fof,KOTM/O/O/FOD/04/06/0011
 kotak multi asset allocator fund of fund dynamic,KOTM/O/O/FOD/04/06/0011
 kotak gold fund,KOTM/O/O/FOD/11/02/0029
-kotak income plus arbitrage fof,KOTM/O/O/FOD/21/07/0081
 kotak all weather debt fof,KOTM/O/O/FOD/21/07/0081
 kotak income plus arbitrage omni fof,KOTM/O/O/FOD/21/07/0081
+kotak income plus arbitrage fof,KOTM/O/O/FOD/21/07/0081
 kotak silver etf fund of fund,KOTM/O/O/FOD/22/09/0097
 kotak gold silver passive fof,KOTM/O/O/FOD/25/07/0154
 kotak multi factor passive fof,KOTM/O/O/FOD/25/09/0162
 kotak global emerging market overseas equity omni fof,KOTM/O/O/FOO/07/07/0020
-kotak global emerging market fund,KOTM/O/O/FOO/07/07/0020
 kotak global emerging market overseas equity active fof,KOTM/O/O/FOO/07/07/0020
-kotak international reit fof,KOTM/O/O/FOO/19/12/0059
-kotak international reit overseas equity omni fof,KOTM/O/O/FOO/19/12/0059
+kotak global emerging market fund,KOTM/O/O/FOO/07/07/0020
 kotak international reit overseas equity active fof,KOTM/O/O/FOO/19/12/0059
+kotak international reit overseas equity omni fof,KOTM/O/O/FOO/19/12/0059
+kotak international reit fof,KOTM/O/O/FOO/19/12/0059
 kotak nasdaq 100 fund of fund,KOTM/O/O/FOO/20/12/0061
 kotak us specific equity passive fof,KOTM/O/O/FOO/20/12/0061
 kotak global innovation overseas equity active fof,KOTM/O/O/FOO/21/05/0064
 kotak global innovation overseas equity omni fof,KOTM/O/O/FOO/21/05/0064
 kotak global innovation fund of fund,KOTM/O/O/FOO/21/05/0064
-kotak quality overseas equity omni fof,KOTM/O/O/FOO/26/02/0163
 kotak quality overseas equity active fof,KOTM/O/O/FOO/26/02/0163
+kotak quality overseas equity omni fof,KOTM/O/O/FOO/26/02/0163
 kotak gold etf,KOTM/O/O/GET/07/05/0019
 kotak silver etf,KOTM/O/O/OET/22/06/0083
 kotak nifty200 quality 30 etf,KOTM/O/O/OET/25/02/0148
@@ -1473,10 +1473,10 @@ lic mf medium to long term fund,LICM/O/D/MLD/99/02/0006
 lic mf medium to long duration fund,LICM/O/D/MLD/99/02/0006
 lic mf money market fund,LICM/O/D/MMF/22/06/0026
 lic mf overnight fund,LICM/O/D/ONF/19/06/0023
-lic mf short duration fund,LICM/O/D/SDF/18/07/0021
 lic mf short term fund,LICM/O/D/SDF/18/07/0021
-lic mf ultra short duration fund,LICM/O/D/USD/19/11/0024
+lic mf short duration fund,LICM/O/D/SDF/18/07/0021
 lic mf ultra short term fund,LICM/O/D/USD/19/11/0024
+lic mf ultra short duration fund,LICM/O/D/USD/19/11/0024
 lic mf yield fund,LICM/O/E/DYF/18/09/0021
 lic mf nifty next 50 index fund,LICM/O/E/EIN/10/07/0003
 lic mf elss tax saver,LICM/O/E/ELS/97/01/0004
@@ -1513,16 +1513,16 @@ lic mf children s fund,LICM/O/S/CHI/01/09/0008
 hsbc banking and psu debt fund,LTMF/O/D/BPF/12/02/0022
 hsbc corporate bond fund,LTMF/O/D/CBF/97/01/0001
 hsbc credit risk fund,LTMF/O/D/CRF/09/04/0015
-hsbc dynamic bond fund,LTMF/O/D/DBF/06/07/0011
 hsbc dynamic term fund,LTMF/O/D/DBF/06/07/0011
+hsbc dynamic bond fund,LTMF/O/D/DBF/06/07/0011
 hsbc gilt fund,LTMF/O/D/GIL/00/03/0004
-hsbc low duration fund,LTMF/O/D/LOW/10/10/0019
 hsbc ultra short to short term fund,LTMF/O/D/LOW/10/10/0019
+hsbc low duration fund,LTMF/O/D/LOW/10/10/0019
 hsbc medium term fund,LTMF/O/D/MDF/15/01/0026
 hsbc medium duration fund,LTMF/O/D/MDF/15/01/0026
 hsbc money market fund,LTMF/O/D/MMF/05/08/0008
-hsbc short duration fund,LTMF/O/D/SDF/11/07/0021
 hsbc short term fund,LTMF/O/D/SDF/11/07/0021
+hsbc short duration fund,LTMF/O/D/SDF/11/07/0021
 hsbc elss tax saver fund,LTMF/O/E/ELS/05/09/0009
 hsbc midcap fund,LTMF/O/E/MIF/04/06/0006
 hsbc small cap fund,LTMF/O/E/SCF/14/02/0023
@@ -1538,13 +1538,13 @@ hsbc nifty next 50 index fund,LTMF/O/O/EIN/19/10/0033
 mahindra manulife dynamic bond fund,MAHM/O/D /DBF/18/05/0007
 mahindra manulife dynamic term fund,MAHM/O/D /DBF/18/05/0007
 mahindra manulife liquid fund,MAHM/O/D /LIF/16/06/0001
-mahindra manulife ultra short to short term fund,MAHM/O/D /LOW/16/12/0004
 mahindra manulife low duration fund,MAHM/O/D /LOW/16/12/0004
+mahindra manulife ultra short to short term fund,MAHM/O/D /LOW/16/12/0004
 mahindra manulife overnight fund,MAHM/O/D /ONF/19/02/0011
-mahindra manulife short duration fund,MAHM/O/D /SDF/20/11/0016
 mahindra manulife short term fund,MAHM/O/D /SDF/20/11/0016
-mahindra manulife ultra short duration fund,MAHM/O/D /USD/19/06/0012
+mahindra manulife short duration fund,MAHM/O/D /SDF/20/11/0016
 mahindra manulife ultra short term fund,MAHM/O/D /USD/19/06/0012
+mahindra manulife ultra short duration fund,MAHM/O/D /USD/19/06/0012
 mahindra manulife elss tax saver fund,MAHM/O/E /ELS/16/07/0002
 mahindra manulife flexi cap fund,MAHM/O/E /FCF/21/06/0018
 mahindra manulife focused fund,MAHM/O/E /FOC/20/05/0014
@@ -1569,13 +1569,13 @@ mahindra manulife income plus arbitrage active fof,MAHM/O/O/FOD/25/06/0026
 mirae asset banking and psu fund,MIRA/O/D/BPF/20/03/0018
 mirae asset banking and psu debt fund,MIRA/O/D/BPF/20/03/0018
 mirae asset corporate bond fund,MIRA/O/D/CBF/21/01/0025
-mirae asset dynamic bond fund,MIRA/O/D/DBF/17/01/0008
 mirae asset dynamic term fund,MIRA/O/D/DBF/17/01/0008
+mirae asset dynamic bond fund,MIRA/O/D/DBF/17/01/0008
 mirae asset liquid fund,MIRA/O/D/LIF/08/09/0003
-mirae asset long duration fund,MIRA/O/D/LON/24/10/0074
 mirae asset long term fund,MIRA/O/D/LON/24/10/0074
-mirae asset low duration fund,MIRA/O/D/LOW/08/02/0002
+mirae asset long duration fund,MIRA/O/D/LON/24/10/0074
 mirae asset ultra short to short term fund,MIRA/O/D/LOW/08/02/0002
+mirae asset low duration fund,MIRA/O/D/LOW/08/02/0002
 mirae asset money market fund,MIRA/O/D/MMF/21/06/0029
 mirae asset overnight fund,MIRA/O/D/ONF/19/09/0016
 mirae asset short duration fund,MIRA/O/D/SDF/17/12/0009
@@ -1650,8 +1650,8 @@ mirae asset bse india defence etf fof,MIRA/O/O/FOD/25/10/0095
 mirae asset nifty metal etf fof,MIRA/O/O/FOD/26/01/0098
 mirae asset silver etf fof,MIRA/O/O/FOD/26/01/0099
 mirae asset bse midcap 150 momentum 30 etf fof,MIRA/O/O/FOD/26/06/0101
-mirae asset global electric & autonomous vehicles etfs fund of fund,MIRA/O/O/FOO/22/05/0039
 mirae asset global electric & autonomous vehicles equity passive fof,MIRA/O/O/FOO/22/05/0039
+mirae asset global electric & autonomous vehicles etfs fund of fund,MIRA/O/O/FOO/22/05/0039
 mirae asset global x artificial intelligence & technology etf fund of fund,MIRA/O/O/FOO/22/07/0040
 mirae asset gold etf,MIRA/O/O/GET/23/01/0045
 mirae asset silver etf,MIRA/O/O/OET/22/11/0051
@@ -1740,12 +1740,12 @@ motilal oswal nifty next 50 index fund,MOTO/O/O/EIN/19/09/0019
 motilal oswal s&p 500 index fund,MOTO/O/O/EIN/20/03/0020
 motilal oswal nifty 200 momentum 30 index fund,MOTO/O/O/EIN/21/12/0030
 motilal oswal nasdaq 100 fund of fund,MOTO/O/O/FOD/18/10/0011
-motilal oswal multi asset passive fund of fund,MOTO/O/O/FOD/20/09/0023
 motilal oswal asset allocation fund of fund aggressive,MOTO/O/O/FOD/20/09/0023
+motilal oswal multi asset passive fund of fund,MOTO/O/O/FOD/20/09/0023
 motilal oswal asset allocation fund of fund conservative,MOTO/O/O/FOD/20/09/0024
 motilal oswal 5 year g sec fund of fund,MOTO/O/O/FOD/21/08/0026
-motilal oswal gold and silver etfs fund of funds,MOTO/O/O/FOD/22/08/0038
 motilal oswal gold and silver passive fund of funds,MOTO/O/O/FOD/22/08/0038
+motilal oswal gold and silver etfs fund of funds,MOTO/O/O/FOD/22/08/0038
 motilal oswal diversified equity flexicap passive fund of funds,MOTO/O/O/FOD/25/09/0088
 motilal oswal developed market ex us etfs fund of funds,MOTO/O/O/FOO/23/07/0042
 motilal oswal developed market ex us etfs overseas equity passive fof,MOTO/O/O/FOO/23/07/0042
@@ -1786,58 +1786,58 @@ navi nifty 50 etf,NAVI/O/O/EET/23/03/0022
 navi nifty india manufacturing index fund,NAVI/O/O/EIN/22/03/0016
 navi nifty it index fund,NAVI/O/O/EIN/23/10/0024
 navi nifty 500 multicap 50 25 25 index fund,NAVI/O/O/EIN/24/06/0025
-navi nifty smallcap 250 momentum quality index fund,NAVI/O/O/EIN/24/10/0026
 navi nifty smallcap250 momentum quality 100 index fund,NAVI/O/O/EIN/24/10/0026
+navi nifty smallcap 250 momentum quality index fund,NAVI/O/O/EIN/24/10/0026
 navi nifty midsmallcap 400 index fund,NAVI/O/O/EIN/25/10/0027
 navi nifty reits & realty index fund,NAVI/O/O/EIN/26/08/0028
 nippon india fixed maturity xli series 8,NIMF/C/D/FTP/19/02/0097
 nippon india fixed horizon fund xli series 8,NIMF/C/D/FTP/19/02/0097
-nippon india fixed maturity xliii series 1,NIMF/C/D/FTP/21/06/0116
 nippon india fixed horizon fund xliii series 1,NIMF/C/D/FTP/21/06/0116
-nippon india fixed maturity xliii series 5,NIMF/C/D/FTP/21/06/0117
+nippon india fixed maturity xliii series 1,NIMF/C/D/FTP/21/06/0116
 nippon india fixed horizon fund xliii series 5,NIMF/C/D/FTP/21/06/0117
-nippon india fixed maturity xliv series 1,NIMF/C/D/FTP/22/05/0124
+nippon india fixed maturity xliii series 5,NIMF/C/D/FTP/21/06/0117
 nippon india fixed horizon fund xliv series 1,NIMF/C/D/FTP/22/05/0124
-nippon india fixed maturity xliv series 4,NIMF/C/D/FTP/22/05/0131
+nippon india fixed maturity xliv series 1,NIMF/C/D/FTP/22/05/0124
 nippon india fixed horizon fund xliv series 4,NIMF/C/D/FTP/22/05/0131
+nippon india fixed maturity xliv series 4,NIMF/C/D/FTP/22/05/0131
 nippon india fixed maturity xlv series 4,NIMF/C/D/FTP/23/01/0138
 nippon india fixed horizon fund xlv series 4,NIMF/C/D/FTP/23/01/0138
-nippon india fixed horizon fund xlv series 5,NIMF/C/D/FTP/23/01/0139
 nippon india fixed maturity xlv series 5,NIMF/C/D/FTP/23/01/0139
+nippon india fixed horizon fund xlv series 5,NIMF/C/D/FTP/23/01/0139
 nippon india interval fund monthly interval fund series i,NIMF/I/D/XXX/07/02/0031
 nippon india interval fund monthly interval fund series ii,NIMF/I/D/XXX/07/02/0032
 nippon india interval fund quarterly interval fund series i,NIMF/I/D/XXX/07/02/0033
 nippon india interval fund annual interval fund series i,NIMF/I/D/XXX/07/02/0034
 nippon india interval fund quarterly interval fund serie ii,NIMF/I/D/XXX/07/02/0035
 nippon india interval fund quarterly interval fund series iii,NIMF/I/D/XXX/07/02/0036
-nippon india banking & psu fund,NIMF/O/D/BPF/15/03/0057
 nippon india banking & psu debt fund,NIMF/O/D/BPF/15/03/0057
 nippon india banking and psu debt fund,NIMF/O/D/BPF/15/03/0057
+nippon india banking & psu fund,NIMF/O/D/BPF/15/03/0057
 nippon india banking and psu fund,NIMF/O/D/BPF/15/03/0057
 nippon india corporate bond fund,NIMF/O/D/CBF/00/08/0004
+nippon india credit risk fund existing number of segregated portfolios 1,NIMF/O/D/CRF/04/11/0022
 nippon india credit risk fund number of segregated portfolios 2,NIMF/O/D/CRF/04/11/0022
 nippon india credit risk fund number of segregated portfolios 1,NIMF/O/D/CRF/04/11/0022
-nippon india credit risk fund existing number of segregated portfolios 1,NIMF/O/D/CRF/04/11/0022
 nippon india dynamic bond fund,NIMF/O/D/DBF/04/04/0018
 nippon india dynamic term fund,NIMF/O/D/DBF/04/04/0018
-nippon india floating rate fund,NIMF/O/D/FLF/04/08/0021
 nippon india floating interest rates fund,NIMF/O/D/FLF/04/08/0021
+nippon india floating rate fund,NIMF/O/D/FLF/04/08/0021
 nippon india floater fund,NIMF/O/D/FLF/04/08/0021
-nippon india gilt securities fund,NIMF/O/D/GIL/03/05/0012
 nippon india gilt fund,NIMF/O/D/GIL/03/05/0012
+nippon india gilt securities fund,NIMF/O/D/GIL/03/05/0012
 nippon india liquid fund,NIMF/O/D/LIF/00/12/0005
+nippon india nivesh lakshya fund,NIMF/O/D/LON/18/05/0065
 nippon india nivesh lakshya long term fund,NIMF/O/D/LON/18/05/0065
 nippon india nivesh lakshya long duration fund,NIMF/O/D/LON/18/05/0065
-nippon india nivesh lakshya fund,NIMF/O/D/LON/18/05/0065
-nippon india low duration fund,NIMF/O/D/LOW/06/10/0029
 nippon india ultra short to short term fund,NIMF/O/D/LOW/06/10/0029
+nippon india low duration fund,NIMF/O/D/LOW/06/10/0029
 nippon india medium duration fund existing number of segregated portfolios 1,NIMF/O/D/MDF/14/03/0050
 nippon india strategic debt fund number of segregated portfolios 1,NIMF/O/D/MDF/14/03/0050
-nippon india strategic debt fund number of segregated portfolios 2,NIMF/O/D/MDF/14/03/0050
 nippon india medium term fund existing number of segregated portfolios 1,NIMF/O/D/MDF/14/03/0050
-nippon india medium to long duration fund,NIMF/O/D/MLD/97/12/0003
-nippon india income fund,NIMF/O/D/MLD/97/12/0003
+nippon india strategic debt fund number of segregated portfolios 2,NIMF/O/D/MDF/14/03/0050
 nippon india medium to long term fund,NIMF/O/D/MLD/97/12/0003
+nippon india income fund,NIMF/O/D/MLD/97/12/0003
+nippon india medium to long duration fund,NIMF/O/D/MLD/97/12/0003
 nippon india money market fund,NIMF/O/D/MMF/05/03/0026
 nippon india overnight fund,NIMF/O/D/ONF/18/11/0094
 nippon india short term fund,NIMF/O/D/SDF/02/10/0008
@@ -1862,8 +1862,8 @@ nippon india power & infra fund,NIMF/O/E/SEC/04/03/0015
 nippon india consumption fund,NIMF/O/E/THE/04/04/0016
 nippon india quant fund,NIMF/O/E/THE/04/07/0020
 nippon india japan equity fund,NIMF/O/E/THE/14/06/0051
-nippon india us equity opportunites fund,NIMF/O/E/THE/15/01/0056
 nippon india us equity opportunities fund,NIMF/O/E/THE/15/01/0056
+nippon india us equity opportunites fund,NIMF/O/E/THE/15/01/0056
 nippon india taiwan equity fund,NIMF/O/E/THE/21/10/0118
 nippon india innovation fund,NIMF/O/E/THE/23/02/0140
 nippon india active momentum fund,NIMF/O/E/THE/24/09/0154
@@ -1872,11 +1872,11 @@ nippon india value fund,NIMF/O/E/VAF/04/11/0023
 nippon india equity hybrid fund number of segregated portfolios 2,NIMF/O/H/AHF/04/11/0024
 nippon india aggressive hybrid fund existing number of segregated portfolios 2,NIMF/O/H/AHF/04/11/0024
 nippon india arbitrage fund,NIMF/O/H/ARB/10/03/0043
-nippon india hybrid bond fund number of segregated portfolios 2,NIMF/O/H/CHF/03/08/0013
 nippon india conservative hybrid fund existing number of segregated portfolios 1,NIMF/O/H/CHF/03/08/0013
+nippon india hybrid bond fund number of segregated portfolios 2,NIMF/O/H/CHF/03/08/0013
 nippon india balanced advantage fund,NIMF/O/H/DAA/04/04/0017
-nippon india equity savings fund existing number of segregated portfolios 2,NIMF/O/H/ESF/14/12/0055
 nippon india equity savings fund number of segregated portfolios 2,NIMF/O/H/ESF/14/12/0055
+nippon india equity savings fund existing number of segregated portfolios 2,NIMF/O/H/ESF/14/12/0055
 nippon india income plus arbitrage active fund of fund,NIMF/O/H/FOD/25/05/0159
 nippon india income plus arbitrage omni fund of fund,NIMF/O/H/FOD/26/07/0168
 nippon india multi asset allocation fund,NIMF/O/H/MAA/20/01/0106
@@ -1935,8 +1935,8 @@ nippon india bse sensex next 30 index fund,NIMF/O/O/EIN/25/02/0158
 nippon india nifty india manufacturing index fund,NIMF/O/O/EIN/25/02/0164
 nippon india gold savings fund,NIMF/O/O/FOD/11/01/0045
 nippon india nifty next 50 junior bees fof,NIMF/O/O/FOD/18/08/0078
-nippon india passive flexicap fof,NIMF/O/O/FOD/20/01/0104
 nippon india diversified equity flexicap passive fof,NIMF/O/O/FOD/20/01/0104
+nippon india passive flexicap fof,NIMF/O/O/FOD/20/01/0104
 nippon india multi asset active fof,NIMF/O/O/FOD/20/01/0105
 nippon india multi asset omni fof,NIMF/O/O/FOD/20/01/0105
 nippon india asset allocator fof,NIMF/O/O/FOD/20/01/0105
@@ -1957,8 +1957,8 @@ old bridge flexi cap fund,OLDB/O/E/FCF/25/11/0003
 old bridge focused fund,OLDB/O/E/MCF/23/11/0001
 old bridge arbitrage fund,OLDB/O/H/ARB/25/10/0002
 pgim india corporate bond fund,PGIM/O/D/CBF/02/12/0002
-pgim india dynamic term fund,PGIM/O/D/DBF/11/10/0012
 pgim india dynamic bond fund,PGIM/O/D/DBF/11/10/0012
+pgim india dynamic term fund,PGIM/O/D/DBF/11/10/0012
 pgim india gilt fund,PGIM/O/D/GIL/08/09/0010
 pgim india liquid fund,PGIM/O/D/LIF/02/12/0001
 pgim india money market fund,PGIM/O/D/MMF/19/12/0021
@@ -1970,8 +1970,8 @@ pgim india flexi cap fund,PGIM/O/E/FCF/13/12/0015
 pgim india large cap fund,PGIM/O/E/LCF/02/12/0003
 pgim india large and midcap fund,PGIM/O/E/LMF/23/07/0026
 pgim india multi cap fund,PGIM/O/E/MCF/24/07/0028
-pgim india midcap fund,PGIM/O/E/MIF/13/08/0014
 pgim india midcap opportunities fund,PGIM/O/E/MIF/13/08/0014
+pgim india midcap fund,PGIM/O/E/MIF/13/08/0014
 pgim india small cap fund,PGIM/O/E/SCF/21/06/0023
 pgim india healthcare fund,PGIM/O/E/SEC/24/07/0029
 pgim india hybrid equity fund,PGIM/O/H/AHF/04/01/0006
@@ -1983,8 +1983,8 @@ pgim india multi asset allocation fund,PGIM/O/H/MAA/25/08/0030
 pgim india crisil ibx gilt index apr 2028 fund,PGIM/O/O/DIN/23/01/0025
 pgim india emerging markets equity fund of fund,PGIM/O/O/FOO/07/07/0009
 pgim india emerging markets equity fund,PGIM/O/O/FOO/07/07/0009
-pgim india global equity opportunities fund,PGIM/O/O/FOO/10/02/0011
 pgim india global equity opportunities fund of fund,PGIM/O/O/FOO/10/02/0011
+pgim india global equity opportunities fund,PGIM/O/O/FOO/10/02/0011
 pgim india global select real estate securities fund of fund,PGIM/O/O/FOO/21/09/0024
 pgim india retirement fund,PGIM/O/S/RET/23/09/0027
 parag parikh large cap fund,PPFA/O/E/LCF/25/11/0007
@@ -2015,28 +2015,28 @@ quant commodities fund,QNTM/O/E/THE/23/11/0025
 quant consumption fund,QNTM/O/E/THE/23/11/0026
 quant psu fund,QNTM/O/E/THE/23/11/0027
 quant value fund,QNTM/O/E/VAF/21/10/0014
-quant aggressive hybrid fund,QNTM/O/H/AHF/01/02/0005
 quant absolute fund,QNTM/O/H/AHF/01/02/0005
+quant aggressive hybrid fund,QNTM/O/H/AHF/01/02/0005
 quant arbitrage fund,QNTM/O/H/ARB/25/02/0028
-quant multi asset fund,QNTM/O/H/MAA/01/02/0006
 quant multi asset allocation fund,QNTM/O/H/MAA/01/02/0006
+quant multi asset fund,QNTM/O/H/MAA/01/02/0006
 quant income plus arbitrage active fof,QNTM/O/O/FOD/26/06/0031
 quant silver etf,QNTM/O/O/OET/26/06/0030
-quantum dynamic bond fund,QTMM/O/D/DBF/15/03/0009
 quantum dynamic term fund,QTMM/O/D/DBF/15/03/0009
+quantum dynamic bond fund,QTMM/O/D/DBF/15/03/0009
 quantum gold fund,QTMM/O/D/GET/07/12/0003
 quantum gold etf,QTMM/O/D/GET/07/12/0003
 quantum nifty 50 etf,QTMM/O/E/EET/07/12/0004
 quantum elss tax saver fund,QTMM/O/E/ELS/08/11/0005
 quantum flexi cap fund,QTMM/O/E/FCF/26/06/0015
-quantum diversified equity all cap active fof,QTMM/O/E/FOD/09/05/0006
 quantum equity fund of funds,QTMM/O/E/FOD/09/05/0006
+quantum diversified equity all cap active fof,QTMM/O/E/FOD/09/05/0006
 quantum gold savings fund,QTMM/O/E/FOD/11/03/0007
 quantum gold etf fof,QTMM/O/E/FOD/11/03/0007
 quantum multi asset fund of funds,QTMM/O/E/FOD/12/05/0008
 quantum multi asset active fof,QTMM/O/E/FOD/12/05/0008
-quantum value fund,QTMM/O/E/OES/06/02/0001
 quantum long term equity value fund,QTMM/O/E/OES/06/02/0001
+quantum value fund,QTMM/O/E/OES/06/02/0001
 quantum esg best in class strategy fund,QTMM/O/E/OES/19/03/0010
 quantum small cap fund,QTMM/O/E/SCF/23/09/0012
 quantum ethical fund,QTMM/O/E/THE/24/10/0014
@@ -2102,35 +2102,35 @@ sbi banking & psu debt fund,SBIM/O/D/BPF/09/10/0034
 sbi banking & psu fund,SBIM/O/D/BPF/09/10/0034
 sbi corporate bond fund,SBIM/O/D/CBF/18/08/0057
 sbi credit risk fund,SBIM/O/D/CRF/18/08/0056
-sbi dynamic term fund,SBIM/O/D/DBF/04/01/0022
 sbi dynamic bond fund,SBIM/O/D/DBF/04/01/0022
+sbi dynamic term fund,SBIM/O/D/DBF/04/01/0022
 sbi floating rate debt fund,SBIM/O/D/FLF/20/07/0119
 sbi floating interest rates fund,SBIM/O/D/FLF/20/07/0119
 sbi gilt fund,SBIM/O/D/GIL/00/11/0015
 sbi magnum gilt fund,SBIM/O/D/GIL/00/11/0015
-sbi 10 year constant maturity gilt fund,SBIM/O/D/GTN/01/01/0016
 sbi magnum constant maturity fund,SBIM/O/D/GTN/01/01/0016
+sbi 10 year constant maturity gilt fund,SBIM/O/D/GTN/01/01/0016
 sbi constant maturity 10 year gilt fund,SBIM/O/D/GTN/01/01/0016
 sbi liquid fund,SBIM/O/D/LIF/03/11/0021
 sbi long duration fund,SBIM/O/D/LON/22/11/0162
 sbi long term fund,SBIM/O/D/LON/22/11/0162
+sbi magnum low duration fund,SBIM/O/D/LOW/07/08/0030
 sbi ultra short to short term fund,SBIM/O/D/LOW/07/08/0030
 sbi low duration fund,SBIM/O/D/LOW/07/08/0030
-sbi magnum low duration fund,SBIM/O/D/LOW/07/08/0030
-sbi medium term fund,SBIM/O/D/MDF/03/11/0020
 sbi magnum medium duration fund,SBIM/O/D/MDF/03/11/0020
 sbi medium duration fund,SBIM/O/D/MDF/03/11/0020
+sbi medium term fund,SBIM/O/D/MDF/03/11/0020
 sbi medium to long duration fund,SBIM/O/D/MLD/98/09/0004
 sbi magnum income fund,SBIM/O/D/MLD/98/09/0004
 sbi medium to long term fund,SBIM/O/D/MLD/98/09/0004
 sbi savings fund,SBIM/O/D/MMF/98/11/0005
 sbi money market fund,SBIM/O/D/MMF/98/11/0005
 sbi overnight fund,SBIM/O/D/ONF/99/05/0011
-sbi short term debt fund,SBIM/O/D/SDF/07/08/0031
 sbi short term fund,SBIM/O/D/SDF/07/08/0031
+sbi short term debt fund,SBIM/O/D/SDF/07/08/0031
 sbi ultra short duration fund,SBIM/O/D/USD/99/05/0012
-sbi magnum ultra short duration fund,SBIM/O/D/USD/99/05/0012
 sbi ultra short term fund,SBIM/O/D/USD/99/05/0012
+sbi magnum ultra short duration fund,SBIM/O/D/USD/99/05/0012
 sbi contra fund,SBIM/O/E/COF/99/04/0009
 sbi yield fund,SBIM/O/E/DYF/23/01/0168
 sbi elss tax saver fund,SBIM/O/E/ELS/99/09/0014
@@ -2138,15 +2138,15 @@ sbi long term equity fund,SBIM/O/E/ELS/99/09/0014
 sbi flexicap fund,SBIM/O/E/FCF/05/07/0026
 sbi focused fund,SBIM/O/E/FOC/99/04/0010
 sbi focused equity fund,SBIM/O/E/FOC/99/04/0010
-sbi large cap fund,SBIM/O/E/LCF/05/12/0027
 sbi blue chip fund,SBIM/O/E/LCF/05/12/0027
+sbi large cap fund,SBIM/O/E/LCF/05/12/0027
 sbi large & midcap fund,SBIM/O/E/LMF/98/04/0003
 sbi multicap fund,SBIM/O/E/MCF/21/11/0144
 sbi midcap fund,SBIM/O/E/MIF/05/01/0023
 sbi magnum midcap fund,SBIM/O/E/MIF/05/01/0023
 sbi small cap fund,SBIM/O/E/SCF/09/08/0033
-sbi magnum comma fund,SBIM/O/E/SEC/05/06/0024
 sbi comma fund,SBIM/O/E/SEC/05/06/0024
+sbi magnum comma fund,SBIM/O/E/SEC/05/06/0024
 sbi infrastructure fund,SBIM/O/E/SEC/07/04/0029
 sbi psu fund,SBIM/O/E/SEC/10/02/0035
 sbi banking & financial services fund,SBIM/O/E/SEC/14/09/0039
@@ -2160,10 +2160,10 @@ sbi quant fund,SBIM/O/E/THE/24/06/0185
 sbi quality fund,SBIM/O/E/THE/25/09/0196
 sbi esg exclusionary strategy fund,SBIM/O/E/THE/97/01/0001
 sbi consumption opportunities fund,SBIM/O/E/THE/99/04/0006
-sbi mnc fund,SBIM/O/E/THE/99/08/0013
 sbi magnum global fund,SBIM/O/E/THE/99/08/0013
-sbi equity hybrid fund,SBIM/O/H/AHF/97/12/0002
+sbi mnc fund,SBIM/O/E/THE/99/08/0013
 sbi aggressive hybrid fund,SBIM/O/H/AHF/97/12/0002
+sbi equity hybrid fund,SBIM/O/H/AHF/97/12/0002
 sbi arbitrage fund,SBIM/O/H/ARB/06/03/0028
 sbi arbitrage opportunities fund,SBIM/O/H/ARB/06/03/0028
 sbi balanced hybrid fund,SBIM/O/H/BHF/26/07/0207
@@ -2214,8 +2214,8 @@ sbi silver etf fund of fund,SBIM/O/O/FOD/24/05/0180
 sbi income plus arbitrage active fof,SBIM/O/O/FOD/25/03/0190
 sbi dynamic asset allocation active fof,SBIM/O/O/FOD/25/04/0195
 sbi nifty midcap 150 momentum 50 etf fof,SBIM/O/O/FOD/26/06/0206
-sbi international access us equity fof,SBIM/O/O/FOO/20/04/0115
 sbi us specific equity active fof,SBIM/O/O/FOO/20/04/0115
+sbi international access us equity fof,SBIM/O/O/FOO/20/04/0115
 sbi gold etf,SBIM/O/O/GET/09/01/0032
 sbi nifty50 equal weight etf,SBIM/O/O/OET/24/01/0181
 sbi silver etf,SBIM/O/O/OET/24/05/0179
@@ -2223,8 +2223,8 @@ sbi nifty midcap 150 momentum 50 etf,SBIM/O/O/OET/26/01/0197
 sbi nifty midcap 150 etf,SBIM/O/O/OET/26/01/0198
 sbi children s fund savings,SBIM/O/S/CHI/01/07/0018
 sbi magnum children s benefit fund savings,SBIM/O/S/CHI/01/07/0018
-sbi magnum children s benefit fund investment,SBIM/O/S/CHI/20/06/0116
 sbi children s fund investment,SBIM/O/S/CHI/20/06/0116
+sbi magnum children s benefit fund investment,SBIM/O/S/CHI/20/06/0116
 sbi retirement benefit fund aggressive,SBIM/O/S/RET/20/01/0111
 sbi retirement benefit fund aggressive hybrid,SBIM/O/S/RET/20/01/0112
 sbi retirement benefit fund conservative hybrid,SBIM/O/S/RET/20/01/0113
@@ -2248,8 +2248,8 @@ sundaram long term micro cap tax advantage series v,SUND/C/E/ELS/17/02/0030
 sundaram long term micro cap tax advantage fund series vi,SUND/C/E/ELS/17/02/0031
 sundaram long term tax advantage fund series iii,SUND/C/E/ELS/17/12/0036
 sundaram long term tax advantage fund series iv,SUND/C/E/ELS/17/12/0037
-sundaram banking and psu debt fund,SUND/O/D/BPF/04/12/0015
 sundaram banking & psu fund,SUND/O/D/BPF/04/12/0015
+sundaram banking and psu debt fund,SUND/O/D/BPF/04/12/0015
 sundaram corporate bond fund,SUND/O/D/CBF/04/12/0014
 sundaram liquid fund,SUND/O/D/LIF/00/09/0007
 sundaram ultra short to short term fund,SUND/O/D/LOW/04/08/0011
@@ -2287,8 +2287,8 @@ sundaram conservative hybrid fund,SUND/O/H/CHF/10/03/0023
 sundaram equity savings fund,SUND/O/H/ESF/02/01/0008
 sundaram multi asset allocation fund,SUND/O/H/MAA/23/12/0053
 sundaram income plus arbitrage active fof,SUND/O/O/FOD/25/09/0056
-sundaram global brand fund,SUND/O/O/FOO/07/07/0020
 sundaram global brand theme equity active fof,SUND/O/O/FOO/07/07/0020
+sundaram global brand fund,SUND/O/O/FOO/07/07/0020
 sundaram nifty 100 equal weight fund,SUND/O/O/OIN/99/05/0003
 tata fixed maturity series 61 scheme d 91 days,TATA/C/D/FTP/24/06/0074
 tata corporate bond fund,TATA/O/D/CBF/21/05/0044
@@ -2419,8 +2419,8 @@ union ultra short to short term fund,UNIN/O/D/LOW/25/05/0032
 union medium duration fund,UNIN/O/D/MDF/19/10/0015
 union money market fund,UNIN/O/D/MMF/21/06/0018
 union overnight fund,UNIN/O/D/ONF/19/02/0012
-union short duration fund,UNIN/O/D/SDF/24/12/0028
 union short term fund,UNIN/O/D/SDF/24/12/0028
+union short duration fund,UNIN/O/D/SDF/24/12/0028
 union elss tax saver fund fund,UNIN/O/E/ELS/11/08/0003
 union flexi cap fund,UNIN/O/E/FCF/11/04/0001
 union focused fund,UNIN/O/E/FOC/19/06/0013
@@ -2458,33 +2458,33 @@ uti banking & psu fund,UTIM/O/D/BPF/13/09/0055
 uti banking & psu debt fund,UTIM/O/D/BPF/13/09/0055
 uti corporate bond fund,UTIM/O/D/CBF/18/06/0063
 uti credit risk fund,UTIM/O/D/CRF/12/06/0053
-uti dynamic term fund,UTIM/O/D/DBF/07/11/0042
 uti dynamic bond fund,UTIM/O/D/DBF/07/11/0042
+uti dynamic term fund,UTIM/O/D/DBF/07/11/0042
 uti nifty 5 yr benchmark g sec etf,UTIM/O/D/DET/23/07/0120
 uti crisil sdl maturity april 2033 index fund,UTIM/O/D/DIN/22/10/0104
 uti crisil sdl maturity june 2027 index fund,UTIM/O/D/DIN/22/10/0105
 uti nifty sdl plus aaa psu bond apr 2026 75 25 index fund,UTIM/O/D/DIN/22/10/0107
-uti floating interest rates fund,UTIM/O/D/FLF/18/07/0073
 uti floater fund,UTIM/O/D/FLF/18/07/0073
+uti floating interest rates fund,UTIM/O/D/FLF/18/07/0073
 uti income plus arbitrage active fund of fund,UTIM/O/D/FOD/25/02/0129
 uti gilt fund,UTIM/O/D/GIL/02/01/0014
-uti 10 year constant maturity gilt fund,UTIM/O/D/GTN/21/07/0100
 uti gilt fund with 10 year constant duration,UTIM/O/D/GTN/21/07/0100
+uti 10 year constant maturity gilt fund,UTIM/O/D/GTN/21/07/0100
 uti liquid fund,UTIM/O/D/LIF/03/06/0016
-uti long duration fund,UTIM/O/D/LON/22/11/0110
 uti long term fund,UTIM/O/D/LON/22/11/0110
-uti low duration fund,UTIM/O/D/LOW/99/07/0010
+uti long duration fund,UTIM/O/D/LON/22/11/0110
 uti ultra short to short term fund,UTIM/O/D/LOW/99/07/0010
-uti medium term fund,UTIM/O/D/MDF/13/05/0054
+uti low duration fund,UTIM/O/D/LOW/99/07/0010
 uti medium duration fund,UTIM/O/D/MDF/13/05/0054
+uti medium term fund,UTIM/O/D/MDF/13/05/0054
 uti medium to long term fund,UTIM/O/D/MLD/98/05/0007
 uti medium to long duration fund,UTIM/O/D/MLD/98/05/0007
 uti money market fund,UTIM/O/D/MMF/97/04/0006
 uti overnight fund,UTIM/O/D/ONF/99/07/0011
-uti short duration fund,UTIM/O/D/SDF/03/06/0017
 uti short term fund,UTIM/O/D/SDF/03/06/0017
-uti ultra short term fund,UTIM/O/D/USD/03/08/0018
+uti short duration fund,UTIM/O/D/SDF/03/06/0017
 uti ultra short duration fund,UTIM/O/D/USD/03/08/0018
+uti ultra short term fund,UTIM/O/D/USD/03/08/0018
 uti yield fund,UTIM/O/E/DYF/05/03/0024
 uti nifty midcap 150 exchange traded fund,UTIM/O/E/EET/23/02/0117
 uti nifty it etf,UTIM/O/E/EET/23/09/0119

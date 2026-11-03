@@ -64,8 +64,8 @@ jm medium to long duration fund,JMFI/O/D/MLD/94/11/0002;JMFI/O/D/ONF/19/11/0012
 jm overnight fund,JMFI/O/D/ONF/19/11/0012;JMFI/O/E/SCF/23/11/0016
 jm midcap fund,JMFI/O/D/SDF/21/11/0013;JMFI/O/E/MIF/21/09/0014
 jm short duration fund,JMFI/O/D/SDF/21/11/0013;JMFI/O/E/VAF/97/03/0005
-jm arbitrage fund,JMFI/O/E/ELS/07/11/0009;JMFI/O/H/ARB/06/04/0007
 jm elss tax saver fund,JMFI/O/E/ELS/07/11/0009;JMFI/O/E/FOC/07/12/0010
+jm arbitrage fund,JMFI/O/E/ELS/07/11/0009;JMFI/O/H/ARB/06/04/0007
 jm flexicap fund,JMFI/O/E/FCF/08/02/0011;JMFI/O/E/LCF/94/02/0001
 jm value fund,JMFI/O/E/LMF/25/04/0017;JMFI/O/E/VAF/97/03/0005
 axis children s fund,Lock-IN - AXIS/O/S/CHI/15/09/0020;No lock in - AXIS/O/S/CHI/15/09/0021
