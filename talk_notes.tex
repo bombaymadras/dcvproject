@@ -1,0 +1,87 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.2cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\setlist{nosep}
+\newcommand{\say}[1]{\par\medskip\noindent\textcolor{black!70}{\textit{#1}}\par\medskip}
+\newcommand{\onscreen}[1]{\noindent\textbf{Show:} #1\par}
+
+\title{Mutual fund costs and returns: large-cap equity funds\\[4pt]\large Speaker notes, about 10 minutes}
+\author{Soham \quad DA2402 Data Curation and Visualisation, IIT Madras}
+\date{}
+
+\begin{document}
+\maketitle
+
+\noindent\textbf{Setup before you start.} Run the last cell of \texttt{03\_visualisation.ipynb}, open \url{http://127.0.0.1:8050}, land on the Introduction tab. Keep \texttt{clean/dashboard.html} open in a second browser tab as a backup if the server dies.
+
+\medskip
+\noindent\textbf{The one line to remember:} \emph{Pick the fund by its track record. Between similar funds, take the cheaper. Whichever fund, buy the Direct plan.}
+
+\section*{1. Introduction (1 min)}
+\onscreen{Introduction tab. Point at the four numbers in the blue band.}
+\say{Every mutual fund in India is sold in two versions holding exactly the same shares. The Regular plan is bought through an agent, and his commission is built into the yearly fee. The Direct plan is bought from the fund house with no commission. We asked two questions about large-cap funds, the ones that buy the hundred biggest companies: does a fund that charges more earn less, and how much does the Regular plan really cost you?}
+\say{Short answer, up there: 31 funds, the Regular plan costs about 1.1\% of your money more every year, the Direct plan earns about 1.1\% a year more, and the best and worst fund are 12.7\% versus 6.3\% a year apart. That last gap is the biggest number on the screen, and it has nothing to do with fees.}
+
+\section*{2. Data and methods (2 min)}
+\onscreen{Data and methods tab. Do not read it; pick three points.}
+\begin{itemize}
+  \item \textbf{Two AMFI feeds, no common key.} Daily NAV for every scheme in India (1.2 GB, 45 monthly files) and monthly expense ratios with the NSDL scheme code. The NAV feed has no such code, so we built a name-to-code dictionary from the full fee history. It survived 12 renames in two years (Axis Bluechip became Axis Large Cap, SBI Blue Chip became SBI Large Cap, and so on) and matched 100\% of rows.
+  \item \textbf{Window is Oct 2024 to Sep 2026} because AMFI's fee feed is complete only from October 2024. For the ranking we added AMFI's own 3-year returns from the fund-performance page.
+  \item \textbf{Cleaning that mattered:} 13 spellings of ``growth'' became one flag; 62 name strings became 31 funds; 908 missing days were all pre-launch for two new funds, none inside any fund's life (chi-square and Welch's test); 42 weekend NAVs removed so month-ends compare; every big daily jump checked, all four on market-wide days, so no data errors. Nineteen logged steps, 4.26 million rows in, 1,446 out.
+\end{itemize}
+\say{If asked about ethics: both robots.txt files read, nothing we used is blocked; AMFI's terms allow personal non-commercial use and warn there is no guarantee of accuracy, which is why we treated jumps and zero fees as possible errors.}
+
+\section*{3. Results (5 min)}
+\onscreen{Results tab. Walk the cards top to bottom; the captions carry the numbers.}
+
+\subsection*{Same fund, two prices (dumbbell)}
+\say{Each row is one fund. Orange is what you earned in its Regular plan over three years, blue in its Direct plan, same shares. Blue wins in every single fund, by about 1.1\% a year. Now look at the vertical spread: Taurus 12.7\% at the top, Union 6.3\% at the bottom. Which fund you pick matters six times more than which plan.}
+
+\subsection*{The Regular plan's extra charge, fund by fund}
+\say{The extra fee is not one number. Taurus adds 0.18\% a year, Mahindra Manulife 1.66\%. The median is 1.1\%. This is the distributor's commission; it says nothing about how good the fund is.}
+
+\subsection*{Does paying more get you more? (scatter)}
+\say{This is the project question. Each dot is a fund; left-right is its fee, up-down its 3-year return, Direct on the left panel, Regular on the right. If fees hurt returns the dots would slope down. They do not: the slope is flat, p = 0.61 and 0.47. Across funds, the fee tells you almost nothing about the return. So the fee cannot pick the fund for you.}
+
+\subsection*{What funds charge, and the gap never moves}
+\say{Regular plans cluster around 2\% a year, Direct around 0.9\%. And the gap between them is the same every month for 24 months, between 1.07 and 1.14. It is a fixed cost, paid whether the market goes up or down.}
+
+\subsection*{Fee vs return in motion (bubble) and Quant's story}
+\onscreen{Press play on the bubble chart.}
+\say{Every bubble is a fund; every month the whole cloud jumps up or down together while the fees barely move. The market sets the month's return; the fee only sets where a fund sits left to right. Watch the green one, Quant: in April 2026 it earned 14.2\% in a single month, far above everyone else. Two months later it raised its Direct fee from 0.50\% to 1.37\%, nearly three times. A good month was followed by a higher price. That is the clearest example in our data of why you watch performance first and fees second.}
+
+\subsection*{All funds move together, and the SIP}
+\say{All 31 funds rise and fall as one block; the correlation between any two is 0.95. Worst month March 2026, minus 11\%; best April 2026, plus 8\%. A 1\% yearly fee is invisible next to swings like that, which is exactly why you cannot see it across funds and can only see it inside a fund. On a thousand rupees a month for two years, Direct ended 231 rupees ahead in a flat market; over ten years at a normal market return it is about 6\% of the final amount.}
+
+\subsection*{Pick a fund (interactive)}
+\onscreen{Click one line, for example Union, then Reset. Thirty seconds, no more.}
+\say{Any fund: its monthly return and its fee on top, its two SIP paths below.}
+
+\subsection*{Before and after cleaning}
+\say{One slide for the data-curation half of the course: from 4.26 million daily rows for every fund in India down to 1,446 rows, one per fund, plan and month, and how many ways the same thing was spelled before and after fixing.}
+
+\section*{4. Conclusion (1 min)}
+\onscreen{Conclusion tab. Read the bold line, then the three reasons in your own words.}
+\say{One: pick the fund by how well it has done, because the best and worst are 6.4\% a year apart and the fee did not predict that. Two: if two funds have done about the same, take the one with the lower fee, because the fee is the only thing left and it is paid every year. Three: whichever fund you pick, buy its Direct plan, because the Regular plan of the same fund costs about 1.1\% a year more for the same shares and that comes straight out of your return.}
+\say{Answer to the project question: a costlier fund does not earn less than a cheaper fund; a costlier plan of the same fund does, by exactly the extra fee, about 1.1\% a year, between 0.18 and 1.66 depending on the fund.}
+
+\section*{5. Limitations (30 s)}
+\onscreen{Limitations tab.}
+\say{Two years of fee data, because AMFI's feed is complete only from October 2024. Thirty-one funds, enough to see the pattern, not enough to rule out a very small fee effect. Four funds of the 35 are missing: JioBlackRock on purpose, ITI and JM because AMFI filed them under a second wrong code, Motilal Oswal because the NAV feed leaves its plan and option fields blank. Large cap only; the other categories behave differently.}
+
+\section*{Likely questions}
+\begin{description}[style=nextline]
+  \item[Why is Regular higher than Direct in the since-launch table?] Different periods. Regular plans are older; PGIM's started in 2003 and its average includes the 2003 to 2008 boom. Every Direct plan in India started on 1 January 2013. Where both plans have the same history, Direct is always higher. The 3-year chart compares like with like.
+  \item[Why only large cap?] Assigned category. It is also the cleanest test: the funds hold mostly the same hundred companies, so if fees mattered across funds it should show here.
+  \item[Why monthly, not daily?] Fees are published monthly, so the panel is monthly. Daily NAVs were used for the cleaning checks: missing days and jumps.
+  \item[How did you match the two feeds?] Normalised names (lower case, punctuation, plan and option words, ``formerly known as'' removed) mapped through every name a fund ever had in the fee history to its NSDL code. Ambiguous names were dropped and logged.
+  \item[Is the positive slope in the scatter meaningful?] No. R$^2$ is 0.01 and p is 0.61; with 28 funds that is noise.
+  \item[What did you use AI for?] Small pieces of code help. Every number on the site is computed from the data in the notebooks.
+\end{description}
+
+\end{document}
