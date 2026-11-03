@@ -1,0 +1,12 @@
+{
+  "01": "Same fund, two prices. The orange dot is what you got in the Regular plan, the blue dot in the Direct plan. Direct wins in every fund, by about 1.1% a year. But look at the spread between funds: Taurus made 12.7% a year, Union only 6.3%.",
+  "02": "How much funds charge. Regular plans mostly charge around 2.0% of your money every year; Direct plans around 0.9%. That is the whole difference between the two: the Regular plan includes the distributor's commission.",
+  "03": "The extra charge of the Regular plan, fund by fund. It is not the same everywhere: from 0.18% a year at Taurus to 1.66% at Mahindra Manulife.",
+  "04": "Does an expensive fund earn less? Each dot is a fund. If fees hurt returns, the dots would slope down. They do not (p = 0.61 for Direct, 0.47 for Regular). Across funds, the fee tells you almost nothing about the return.",
+  "05": "The gap between Regular and Direct fees, month by month. It hardly moves: between 1.06% and 1.14% in all 24 months. It is a fixed cost, not something that changes with the market.",
+  "06": "\u20b91,000 put in every month for 24 months, in a typical fund. Direct ended at \u20b923,428, Regular at \u20b923,197. The market was flat, so both sit near the \u20b924,000 invested; the Direct plan still comes out ahead.",
+  "07": "All 31 funds, month by month. They rise and fall together (they hold mostly the same big companies). Worst month: Mar 2026, -11%. Best: Apr 2026, +8%. A 1% yearly fee is tiny next to swings like these.",
+  "08": "What cleaning did. We started with 4,255,618 daily rows for every fund in India and ended with 1,446 rows: one per fund, plan and month. On the right, how many ways the same thing was spelled before and after fixing.",
+  "09": "Press play. Each bubble is one fund; left-right is its fee, up-down is that month's return. Every month the whole cloud jumps up or down together, while the fees barely move. Quant (green) is the exception: watch it slide to the right in mid-2026.",
+  "10": "Quant earned +14.2% in April 2026, far above the typical fund. Two months later its Direct fee went from 0.50% to 1.37% a year. A good month was followed by a higher price."
+}
