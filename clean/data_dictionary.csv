@@ -1,0 +1,15 @@
+column,dtype,unit/meaning,source,allowed_range
+name_norm,str,normalised scheme name,derived,non-empty
+NAV_Name,str,original scheme name,NAV portal,non-empty
+NSDL_code,str,NSDL scheme code from TER,TER Excel,AMC/.../LCF/..
+plan,category,Direct or Regular,NAV portal,"{Direct, Regular}"
+month,str,YYYY-MM,derived,2024-10 to 2026-09
+nav_first,float,NAV at first trading day of month,NAV portal,> 0
+nav_last,float,NAV at last trading day of month,NAV portal,> 0
+monthly_return,float,nav_last(t)/nav_last(t-1) - 1,derived,-0.30 to 0.30
+n_days,int,trading days in month,derived,15 to 25
+month_first,datetime,first NAV date in month,NAV portal,month start
+month_last,datetime,last NAV date in month,NAV portal,month end
+reg_ter,float,Regular plan Total TER (%),TER Excel,0.05 to 3.50
+dir_ter,float,Direct plan Total TER (%),TER Excel,0.05 to 2.50
+gap,float,reg_ter - dir_ter,derived,>= 0
