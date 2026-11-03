@@ -54,4 +54,4 @@ Python 3.12 with pandas, numpy, scipy, pyarrow, openpyxl, requests, amfipy, plot
 
 | Member | Work |
 |---|---|
-| Soham (YOUR FULL NAME, ROLL NUMBER) | 100%: data collection, storage, cleaning, visualisation, site and presentation |
+| Soham | 100%: data collection, storage, cleaning, visualisation, site and presentation |
