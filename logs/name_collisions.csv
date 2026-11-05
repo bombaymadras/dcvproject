@@ -43,8 +43,8 @@ aditya birla sun life savings fund,ABSL/O/D/USD/01/11/0015;ABSL/O/H/CHF/04/02/00
 dsp savings fund,DSPM/O/D/MMF/99/09/0006;DSPM/O/H/CHF/04/04/0012
 groww nifty 1d rate liquid etf,GROW/O/O/DET/24/09/0018;GROW/O/O/EIN/24/04/0014
 groww nifty midcap 150 index fund,GROW/O/O/EET/25/07/0042;GROW/O/O/EIN/25/07/0047
-hdfc value fund,HDFC/O/E /VAF/18/03/0030;HDFC/O/E/VAF/18/03/0030
 hdfc capital builder value fund,HDFC/O/E /VAF/18/03/0030;HDFC/O/E/VAF/18/03/0030
+hdfc value fund,HDFC/O/E /VAF/18/03/0030;HDFC/O/E/VAF/18/03/0030
 hdfc nifty 100 etf,HDFC/O/O /OET/21/12/0087;HDFC/O/O/OET/21/12/0087
 hdfc nifty next 50 etf,HDFC/O/O /OET/21/12/0088;HDFC/O/O/OET/21/12/0088
 hdfc nifty100 quality 30 etf,HDFC/O/O/OET/21/12/0093;HDFC/O/O/OET/21/12/0093?;HDFC/O/O/OET/21/12/0093 
@@ -56,16 +56,16 @@ icici prudential bse liquid rate etf,ICIC/O/O/DET/18/03/0059;ICIC/O/O/DET/24/12/
 iti large cap fund,ITIM/O/E/LCF/19/12/0007;ITIM/O/E/SCF/19/12/0007
 jm aggressive hybrid fund,JMFI/O/D/DBF/03/04/0006;JMFI/O/H/BHF/94/11/0003
 jm dynamic bond fund,JMFI/O/D/DBF/03/04/0006;JMFI/O/E/FCF/08/02/0011
-jm focused fund,JMFI/O/D/LIF/97/02/0004;JMFI/O/E/FOC/07/12/0010
 jm liquid fund,JMFI/O/D/LIF/97/02/0004;JMFI/O/D/MLD/94/11/0002
-jm low duration fund,JMFI/O/D/LOW/06/08/0008;JMFI/O/E/MIF/21/09/0014
+jm focused fund,JMFI/O/D/LIF/97/02/0004;JMFI/O/E/FOC/07/12/0010
 jm large cap fund,JMFI/O/D/LOW/06/08/0008;JMFI/O/E/LCF/94/02/0001
+jm low duration fund,JMFI/O/D/LOW/06/08/0008;JMFI/O/E/MIF/21/09/0014
 jm medium to long duration fund,JMFI/O/D/MLD/94/11/0002;JMFI/O/D/ONF/19/11/0012
 jm overnight fund,JMFI/O/D/ONF/19/11/0012;JMFI/O/E/SCF/23/11/0016
 jm midcap fund,JMFI/O/D/SDF/21/11/0013;JMFI/O/E/MIF/21/09/0014
 jm short duration fund,JMFI/O/D/SDF/21/11/0013;JMFI/O/E/VAF/97/03/0005
-jm elss tax saver fund,JMFI/O/E/ELS/07/11/0009;JMFI/O/E/FOC/07/12/0010
 jm arbitrage fund,JMFI/O/E/ELS/07/11/0009;JMFI/O/H/ARB/06/04/0007
+jm elss tax saver fund,JMFI/O/E/ELS/07/11/0009;JMFI/O/E/FOC/07/12/0010
 jm flexicap fund,JMFI/O/E/FCF/08/02/0011;JMFI/O/E/LCF/94/02/0001
 jm value fund,JMFI/O/E/LMF/25/04/0017;JMFI/O/E/VAF/97/03/0005
 axis children s fund,Lock-IN - AXIS/O/S/CHI/15/09/0020;No lock in - AXIS/O/S/CHI/15/09/0021

@@ -1,20 +1,20 @@
 step,rows_before,rows_after,rows_affected,note,logged_at
-build name→NSDL dict from TER history,2677,2586,91,collisions audited and dropped; no manual overrides required,2026-11-03T18:08:54
-LCF code sets,2338,35,0,all_lcf_codes used for filter; 2026-09 set used for audit,2026-11-03T18:08:54
-NAV large-cap filter (NSDL LCF via dict),4255618,53971,4201647,NSDL code from dict has segment 4 == LCF,2026-11-03T18:09:10
-NAV growth-only filter,53971,29909,24062,"Option contains 'growth', excludes idcw/dividend/payout/reinvestment/bonus/withdrawal",2026-11-03T18:09:10
-NAV plan normalisation,29909,29909,0,resolved Direct/Regular from Plan column,2026-11-03T18:09:11
-TER large-cap filter (all LCF codes),47228,798,46430,35 LCF codes across window applied,2026-11-03T18:09:11
-TER drop missing reg/dir TER,798,798,0,gap requires both,2026-11-03T18:09:11
-join pass 1 (NSDL code via dict),29909,29909,0,"matched 29,909 / 29,909 (100.0%)",2026-11-03T18:09:11
-join pass 2 (AMC-prefix fallback),0,29909,0,"total 29,909 / 29,909 (100.0%)",2026-11-03T18:09:11
-drop JioBlackRock,29909,29762,147,"regular-plan TER missing for 2026-04/05, producing gap < 0",2026-11-03T18:09:11
-normalisation audit,29762,29762,0,"Option 13→1, Plan 2→2, NAV Name 62→31 distinct values",2026-11-03T18:09:12
-"drop duplicate (scheme, plan, Date) rows",29762,29762,0,exact duplicates 0; key duplicates 0; cross-source duplicates resolved by the name→NSDL join,2026-11-03T18:09:12
-NAV missing days,30628,29720,908,"908 pre-launch (structural), 0 inside series life; chi2 p=0.0e+00, MNAR check p=0.81; no imputation",2026-11-03T18:09:16
-drop off-calendar NAV rows,29762,29720,42,weekend NAVs published by 3 AMCs on month-ends; would make nav_last non-comparable across funds,2026-11-03T18:09:16
-NAV jump outliers,29720,29720,0,"4 candidates (|z|>5, |r|>2%); 0 diagnosed as data errors and corrected; rest kept as real",2026-11-03T18:09:16
-aggregate to monthly panel,29720,1446,28274,"daily → monthly: first/last NAV, month return, one row per (scheme, plan, month)",2026-11-03T18:09:16
-missingness after aggregation,1446,1384,62,"monthly_return NaN at first month of each (scheme, plan) — MCAR by construction",2026-11-03T18:09:17
-drop zero/negative TER placeholders,1446,1446,0,reg_ter or dir_ter == 0 → placeholder for unfiled TER; gap undefined,2026-11-03T18:09:17
-TER outliers after placeholder drop,1446,1446,0,negative gap remaining after 0-TER rows removed,2026-11-03T18:09:17
+build name→NSDL dict from TER history,2677,2586,91,collisions audited and dropped; no manual overrides required,2026-11-03T22:28:23
+LCF code sets,2338,35,0,all_lcf_codes used for filter; 2026-09 set used for audit,2026-11-03T22:28:23
+NAV large-cap filter (NSDL LCF via dict),4255618,53971,4201647,NSDL code from dict has segment 4 == LCF,2026-11-03T22:28:26
+NAV growth-only filter,53971,29909,24062,"Option contains 'growth', excludes idcw/dividend/payout/reinvestment/bonus/withdrawal",2026-11-03T22:28:26
+NAV plan normalisation,29909,29909,0,resolved Direct/Regular from Plan column,2026-11-03T22:28:26
+TER large-cap filter (all LCF codes),47228,798,46430,35 LCF codes across window applied,2026-11-03T22:28:26
+TER drop missing reg/dir TER,798,798,0,gap requires both,2026-11-03T22:28:26
+join pass 1 (NSDL code via dict),29909,29909,0,"matched 29,909 / 29,909 (100.0%)",2026-11-03T22:28:27
+join pass 2 (AMC-prefix fallback),0,29909,0,"total 29,909 / 29,909 (100.0%)",2026-11-03T22:28:27
+drop JioBlackRock,29909,29762,147,"regular-plan TER missing for 2026-04/05, producing gap < 0",2026-11-03T22:28:27
+normalisation audit,29762,29762,0,"Option 13→1, Plan 2→2, NAV Name 62→31 distinct values",2026-11-03T22:28:27
+"drop duplicate (scheme, plan, Date) rows",29762,29762,0,exact duplicates 0; key duplicates 0; cross-source duplicates resolved by the name→NSDL join,2026-11-03T22:28:27
+NAV missing days,30628,29720,908,"908 pre-launch (structural), 0 inside series life; chi2 p=0.0e+00, MNAR check p=0.81; no imputation",2026-11-03T22:28:50
+drop off-calendar NAV rows,29762,29720,42,weekend NAVs published by 3 AMCs on month-ends; would make nav_last non-comparable across funds,2026-11-03T22:28:50
+NAV jump outliers,29720,29720,0,"4 candidates (|z|>5, |r|>2%); 0 diagnosed as data errors and corrected; rest kept as real",2026-11-03T22:28:50
+aggregate to monthly panel,29720,1446,28274,"daily → monthly: first/last NAV, month return, one row per (scheme, plan, month)",2026-11-03T22:28:50
+missingness after aggregation,1446,1384,62,"monthly_return NaN at first month of each (scheme, plan) — MCAR by construction",2026-11-03T22:28:50
+drop zero/negative TER placeholders,1446,1446,0,reg_ter or dir_ter == 0 → placeholder for unfiled TER; gap undefined,2026-11-03T22:28:50
+TER outliers after placeholder drop,1446,1446,0,negative gap remaining after 0-TER rows removed,2026-11-03T22:28:50
